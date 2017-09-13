@@ -1,0 +1,8 @@
+C:\Users\hiker\Documents\GitHub\SSCOM\PortSettingContexMenu\obj\Debug\PortSettingContextMenu.Properties.Resources.resources
+C:\Users\hiker\Documents\GitHub\SSCOM\PortSettingContexMenu\obj\Debug\PortSettingContextMenu.csproj.GenerateResource.Cache
+C:\Users\hiker\Documents\GitHub\SSCOM\PortSettingContexMenu\bin\Debug\PortSettingContextMenu.dll
+C:\Users\hiker\Documents\GitHub\SSCOM\PortSettingContexMenu\bin\Debug\PortSettingContextMenu.pdb
+C:\Users\hiker\Documents\GitHub\SSCOM\PortSettingContexMenu\obj\Debug\PortSettingContextMenu.dll
+C:\Users\hiker\Documents\GitHub\SSCOM\PortSettingContexMenu\obj\Debug\PortSettingContextMenu.pdb
+C:\Users\hiker\Documents\GitHub\SSCOM\PortSettingContexMenu\obj\Debug\PortSettingContextMenu.csprojResolveAssemblyReference.cache
+C:\Users\hiker\Documents\GitHub\SSCOM\PortSettingContexMenu\obj\Debug\PortSettingContextMenu.PortSettingMenu.resources

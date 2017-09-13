@@ -1,0 +1,23 @@
+E:\COM Terminal\COMx\COM Terminal\SuperContextMenu\bin\Debug\SuperContextMenu.dll
+E:\COM Terminal\COMx\COM Terminal\SuperContextMenu\bin\Debug\SuperContextMenu.pdb
+E:\COM Terminal\COMx\COM Terminal\SuperContextMenu\obj\Debug\SuperContextMenu.ContextMenuForButton.resources
+E:\COM Terminal\COMx\COM Terminal\SuperContextMenu\obj\Debug\SuperContextMenu.csproj.GenerateResource.Cache
+E:\COM Terminal\COMx\COM Terminal\SuperContextMenu\obj\Debug\SuperContextMenu.dll
+E:\COM Terminal\COMx\COM Terminal\SuperContextMenu\obj\Debug\SuperContextMenu.pdb
+E:\COM Terminal\COMx\COM Terminal\SuperContextMenu\obj\Debug\SuperContextMenu.csprojResolveAssemblyReference.cache
+E:\COM Terminal\COMx\COM Terminal\SuperContextMenu\obj\Debug\SuperContextMenu.Properties.Resources.resources
+C:\Users\hiker\Documents\GitHub\ComTool\SuperContextMenu\bin\Debug\SuperContextMenu.dll
+C:\Users\hiker\Documents\GitHub\ComTool\SuperContextMenu\bin\Debug\SuperContextMenu.pdb
+C:\Users\hiker\Documents\GitHub\ComTool\SuperContextMenu\obj\Debug\SuperContextMenu.ContextMenuForButton.resources
+C:\Users\hiker\Documents\GitHub\ComTool\SuperContextMenu\obj\Debug\SuperContextMenu.Properties.Resources.resources
+C:\Users\hiker\Documents\GitHub\ComTool\SuperContextMenu\obj\Debug\SuperContextMenu.csproj.GenerateResource.Cache
+C:\Users\hiker\Documents\GitHub\ComTool\SuperContextMenu\obj\Debug\SuperContextMenu.dll
+C:\Users\hiker\Documents\GitHub\ComTool\SuperContextMenu\obj\Debug\SuperContextMenu.pdb
+C:\Users\hiker\Documents\GitHub\SSCOM\SuperContextMenu\bin\Debug\SuperContextMenu.dll
+C:\Users\hiker\Documents\GitHub\SSCOM\SuperContextMenu\bin\Debug\SuperContextMenu.pdb
+C:\Users\hiker\Documents\GitHub\SSCOM\SuperContextMenu\obj\Debug\SuperContextMenu.csprojResolveAssemblyReference.cache
+C:\Users\hiker\Documents\GitHub\SSCOM\SuperContextMenu\obj\Debug\SuperContextMenu.ContextMenuForButton.resources
+C:\Users\hiker\Documents\GitHub\SSCOM\SuperContextMenu\obj\Debug\SuperContextMenu.Properties.Resources.resources
+C:\Users\hiker\Documents\GitHub\SSCOM\SuperContextMenu\obj\Debug\SuperContextMenu.csproj.GenerateResource.Cache
+C:\Users\hiker\Documents\GitHub\SSCOM\SuperContextMenu\obj\Debug\SuperContextMenu.dll
+C:\Users\hiker\Documents\GitHub\SSCOM\SuperContextMenu\obj\Debug\SuperContextMenu.pdb

@@ -1,0 +1,137 @@
+E:\COM Terminal\flat\serialport\DockSample\bin\Debug\DockSample.exe
+E:\COM Terminal\flat\serialport\DockSample\bin\Debug\DockSample.pdb
+E:\COM Terminal\flat\serialport\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\COM Terminal\flat\serialport\DockSample\obj\Debug\serialport.csprojResolveAssemblyReference.cache
+E:\COM Terminal\flat\serialport\DockSample\obj\Debug\DockSample.AboutDialog.resources
+E:\COM Terminal\flat\serialport\DockSample\obj\Debug\DockSample.DummySolutionExplorer.resources
+E:\COM Terminal\flat\serialport\DockSample\obj\Debug\DockSample.DummyTaskList.resources
+E:\COM Terminal\flat\serialport\DockSample\obj\Debug\DockSample.DummyToolbox.resources
+E:\COM Terminal\flat\serialport\DockSample\obj\Debug\DockSample.MainForm.resources
+E:\COM Terminal\flat\serialport\DockSample\obj\Debug\DockSample.Properties.Resources.resources
+E:\COM Terminal\flat\serialport\DockSample\obj\Debug\DockSample.Customization.Resources.resources
+E:\COM Terminal\flat\serialport\DockSample\obj\Debug\DockSample.Customization.Strings.resources
+E:\COM Terminal\flat\serialport\DockSample\obj\Debug\DockSample.ToolWindow.resources
+E:\COM Terminal\flat\serialport\DockSample\obj\Debug\serialport.csproj.GenerateResource.Cache
+E:\COM Terminal\flat\serialport\DockSample\obj\Debug\DockSample.exe
+E:\COM Terminal\flat\serialport\DockSample\obj\Debug\DockSample.pdb
+E:\COM Terminal\flat\serialport\DockSample\obj\Debug\DockSample.ReceiveWindow.resources
+E:\COM Terminal\flat\serialport\DockSample\obj\Debug\DockSample.InputWindow.resources
+E:\COM Terminal\flat\serialport\DockSample\obj\Debug\DockSample.CommandWindow.resources
+E:\COM Terminal\COMx\serialport\DockSample\bin\Debug\DockSample.exe
+E:\COM Terminal\COMx\serialport\DockSample\bin\Debug\DockSample.pdb
+E:\COM Terminal\COMx\serialport\DockSample\bin\Debug\FastColoredTextBox.dll
+E:\COM Terminal\COMx\serialport\DockSample\bin\Debug\FastColoredTextBox.pdb
+E:\COM Terminal\COMx\serialport\DockSample\bin\Debug\FastColoredTextBox.xml
+E:\COM Terminal\COMx\serialport\DockSample\obj\Debug\serialport.csprojResolveAssemblyReference.cache
+E:\COM Terminal\COMx\serialport\DockSample\obj\Debug\DockSample.AboutDialog.resources
+E:\COM Terminal\COMx\serialport\DockSample\obj\Debug\DockSample.LogSetting.resources
+E:\COM Terminal\COMx\serialport\DockSample\obj\Debug\DockSample.NewPortWindow.resources
+E:\COM Terminal\COMx\serialport\DockSample\obj\Debug\DockSample.ReceiveWindow.resources
+E:\COM Terminal\COMx\serialport\DockSample\obj\Debug\DockSample.SendWindow.resources
+E:\COM Terminal\COMx\serialport\DockSample\obj\Debug\DockSample.MainForm.resources
+E:\COM Terminal\COMx\serialport\DockSample\obj\Debug\DockSample.Properties.Resources.resources
+E:\COM Terminal\COMx\serialport\DockSample\obj\Debug\DockSample.Customization.Resources.resources
+E:\COM Terminal\COMx\serialport\DockSample\obj\Debug\DockSample.Customization.Strings.resources
+E:\COM Terminal\COMx\serialport\DockSample\obj\Debug\DockSample.ReceiveWindowSetting.resources
+E:\COM Terminal\COMx\serialport\DockSample\obj\Debug\DockSample.ToolWindow.resources
+E:\COM Terminal\COMx\serialport\DockSample\obj\Debug\serialport.csproj.GenerateResource.Cache
+E:\COM Terminal\COMx\serialport\DockSample\obj\Debug\DockSample.exe
+E:\COM Terminal\COMx\serialport\DockSample\obj\Debug\DockSample.pdb
+E:\COM Terminal\COMx\serialport\DockSample\bin\Debug\CaptureImageTool.dll
+E:\COM Terminal\COMx\serialport\DockSample\obj\Debug\DockSample.HistoryWindow.resources
+E:\COM Terminal\COMx\serialport\DockSample\bin\Debug\ColorComboBox.dll
+E:\COM Terminal\COMx\serialport\DockSample\bin\Debug\ColorListBoxSelector.dll
+E:\COM Terminal\COMx\serialport\DockSample\obj\Debug\DockSample.SendToolsBox.resources
+E:\COM Terminal\COMx\COM Terminal\DockSample\obj\Debug\DockSample.exe
+E:\COM Terminal\COMx\COM Terminal\DockSample\obj\Debug\DockSample.pdb
+E:\COM Terminal\COMx\COM Terminal\DockSample\bin\Debug\DockSample.exe
+E:\COM Terminal\COMx\COM Terminal\DockSample\bin\Debug\DockSample.pdb
+E:\COM Terminal\COMx\COM Terminal\DockSample\bin\Debug\CaptureImageTool.dll
+E:\COM Terminal\COMx\COM Terminal\DockSample\bin\Debug\ColorListBoxSelector.dll
+E:\COM Terminal\COMx\COM Terminal\DockSample\bin\Debug\FastColoredTextBox.dll
+E:\COM Terminal\COMx\COM Terminal\DockSample\bin\Debug\FastColoredTextBox.pdb
+E:\COM Terminal\COMx\COM Terminal\DockSample\bin\Debug\FastColoredTextBox.xml
+E:\COM Terminal\COMx\COM Terminal\DockSample\obj\Debug\serialport.csprojResolveAssemblyReference.cache
+E:\COM Terminal\COMx\COM Terminal\DockSample\obj\Debug\DockSample.HistoryWindow.resources
+E:\COM Terminal\COMx\COM Terminal\DockSample\obj\Debug\DockSample.NewPortWindow.resources
+E:\COM Terminal\COMx\COM Terminal\DockSample\obj\Debug\DockSample.ReceiveWindow.resources
+E:\COM Terminal\COMx\COM Terminal\DockSample\obj\Debug\DockSample.SendToolsBox.resources
+E:\COM Terminal\COMx\COM Terminal\DockSample\obj\Debug\DockSample.MainForm.resources
+E:\COM Terminal\COMx\COM Terminal\DockSample\obj\Debug\DockSample.Properties.Resources.resources
+E:\COM Terminal\COMx\COM Terminal\DockSample\obj\Debug\DockSample.Customization.Resources.resources
+E:\COM Terminal\COMx\COM Terminal\DockSample\obj\Debug\DockSample.ReceiveWindowSetting.resources
+E:\COM Terminal\COMx\COM Terminal\DockSample\obj\Debug\serialport.csproj.GenerateResource.Cache
+E:\COM Terminal\COMx\COM Terminal\DockSample\obj\Debug\DockSample.RepeatSendSetting.resources
+E:\COM Terminal\COMx\COM Terminal\DockSample\obj\Debug\DockSample.PortOpenFailDialog.resources
+E:\COM Terminal\COMx\COM Terminal\DockSample\bin\Debug\DockSample.exe.config
+E:\COM Terminal\COMx\COM Terminal\DockSample\obj\Debug\DockSample.SendWindow.resources
+E:\COM Terminal\COMx\COM Terminal\DockSample\obj\Debug\DockSample.SpecialButton.resources
+E:\COM Terminal\COMx\COM Terminal\DockSample\obj\Debug\DockSample.SendSettingWindow.resources
+E:\COM Terminal\COMx\COM Terminal\DockSample\bin\Debug\SuperContextMenu.pdb
+E:\COM Terminal\COMx\COM Terminal\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.ThemeVS2003.dll
+E:\COM Terminal\COMx\COM Terminal\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.ThemeVS2010.dll
+E:\COM Terminal\COMx\COM Terminal\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.ThemeVS2012.dll
+E:\COM Terminal\COMx\COM Terminal\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.ThemeVS2013.dll
+E:\COM Terminal\COMx\COM Terminal\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\bin\Debug\ComTool.exe.config
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\bin\Debug\ComTool.exe
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\bin\Debug\ComTool.pdb
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\bin\Debug\CaptureImageTool.dll
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\bin\Debug\ColorListBoxSelector.dll
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\bin\Debug\FastColoredTextBox.dll
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.ThemeVS2003.dll
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.ThemeVS2010.dll
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.ThemeVS2012.dll
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.ThemeVS2013.dll
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\bin\Debug\FastColoredTextBox.pdb
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\bin\Debug\FastColoredTextBox.xml
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\obj\Debug\serialport.csprojResolveAssemblyReference.cache
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\obj\Debug\DockSample.HistoryWindow.resources
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\obj\Debug\DockSample.NewPortWindow.resources
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\obj\Debug\DockSample.PortOpenFailDialog.resources
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\obj\Debug\DockSample.ReceiveWindow.resources
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\obj\Debug\DockSample.RepeatSendSetting.resources
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\obj\Debug\DockSample.SendToolsBox.resources
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\obj\Debug\DockSample.MainForm.resources
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\obj\Debug\DockSample.Properties.Resources.resources
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\obj\Debug\DockSample.SendWindow.resources
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\obj\Debug\DockSample.Customization.Resources.resources
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\obj\Debug\DockSample.ReceiveWindowSetting.resources
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\obj\Debug\serialport.csproj.GenerateResource.Cache
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\obj\Debug\ComTool.exe
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\obj\Debug\ComTool.pdb
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\bin\Debug\VisualStudioTabControl.dll
+C:\Users\hiker\Documents\GitHub\ComTool\DockSample\bin\Debug\VisualStudioTabControl.pdb
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\ComTool.exe.config
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\obj\Debug\ComTool.exe
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\obj\Debug\ComTool.pdb
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\obj\Debug\serialport.csprojResolveAssemblyReference.cache
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\obj\Debug\DockSample.HistoryWindow.resources
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\obj\Debug\DockSample.NewPortWindow.resources
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\obj\Debug\DockSample.PortOpenFailDialog.resources
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\obj\Debug\DockSample.RepeatSendSetting.resources
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\obj\Debug\DockSample.MainForm.resources
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\obj\Debug\DockSample.Properties.Resources.resources
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\obj\Debug\DockSample.Customization.Resources.resources
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\obj\Debug\DockSample.ReceiveWindowSetting.resources
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\obj\Debug\serialport.csproj.GenerateResource.Cache
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\ComTool.exe
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\ComTool.pdb
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\CaptureImageTool.dll
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\ColorListBoxSelector.dll
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\FastColoredTextBox.dll
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\VisualStudioTabControl.dll
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.ThemeVS2003.dll
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.ThemeVS2010.dll
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.ThemeVS2012.dll
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.ThemeVS2013.dll
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\FastColoredTextBox.pdb
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\FastColoredTextBox.xml
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\VisualStudioTabControl.pdb
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\PortSettingContextMenu.dll
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\PortSettingContextMenu.pdb
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\TextListContextMenu.dll
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\TextListContextMenu.pdb
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\obj\Debug\DockSample.SendHistoryForm.resources

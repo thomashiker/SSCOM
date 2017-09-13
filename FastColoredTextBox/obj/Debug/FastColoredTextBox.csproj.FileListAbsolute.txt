@@ -1,0 +1,64 @@
+E:\C#控件\FastColoredTextBox-master\FastColoredTextBox\bin\Debug\FastColoredTextBox.XML
+E:\C#控件\FastColoredTextBox-master\FastColoredTextBox\bin\Debug\FastColoredTextBox.dll
+E:\C#控件\FastColoredTextBox-master\FastColoredTextBox\bin\Debug\FastColoredTextBox.pdb
+E:\C#控件\FastColoredTextBox-master\FastColoredTextBox\obj\Debug\FastColoredTextBox.csprojResolveAssemblyReference.cache
+E:\C#控件\FastColoredTextBox-master\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.FastColoredTextBox.resources
+E:\C#控件\FastColoredTextBox-master\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.FindForm.resources
+E:\C#控件\FastColoredTextBox-master\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.GoToForm.resources
+E:\C#控件\FastColoredTextBox-master\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.HotkeysEditorForm.resources
+E:\C#控件\FastColoredTextBox-master\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.ReplaceForm.resources
+E:\C#控件\FastColoredTextBox-master\FastColoredTextBox\obj\Debug\FastColoredTextBox.csproj.GenerateResource.Cache
+E:\C#控件\FastColoredTextBox-master\FastColoredTextBox\obj\Debug\FastColoredTextBox.dll
+E:\C#控件\FastColoredTextBox-master\FastColoredTextBox\obj\Debug\FastColoredTextBox.pdb
+C:\Users\Hiker\Downloads\FastColoredTextBox-master\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.FastColoredTextBox.resources
+C:\Users\Hiker\Downloads\FastColoredTextBox-master\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.FindForm.resources
+C:\Users\Hiker\Downloads\FastColoredTextBox-master\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.GoToForm.resources
+C:\Users\Hiker\Downloads\FastColoredTextBox-master\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.HotkeysEditorForm.resources
+C:\Users\Hiker\Downloads\FastColoredTextBox-master\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.ReplaceForm.resources
+C:\Users\Hiker\Downloads\FastColoredTextBox-master\FastColoredTextBox\obj\Debug\FastColoredTextBox.csproj.GenerateResource.Cache
+C:\Users\Hiker\Downloads\FastColoredTextBox-master\FastColoredTextBox\obj\Debug\FastColoredTextBox.dll
+C:\Users\Hiker\Downloads\FastColoredTextBox-master\FastColoredTextBox\bin\Debug\FastColoredTextBox.XML
+C:\Users\Hiker\Downloads\FastColoredTextBox-master\FastColoredTextBox\bin\Debug\FastColoredTextBox.dll
+C:\Users\Hiker\Downloads\FastColoredTextBox-master\FastColoredTextBox\bin\Debug\FastColoredTextBox.pdb
+C:\Users\Hiker\Downloads\FastColoredTextBox-master\FastColoredTextBox\obj\Debug\FastColoredTextBox.pdb
+C:\Users\Hiker\Downloads\FastColoredTextBox-master\FastColoredTextBox\obj\Debug\FastColoredTextBox.csprojResolveAssemblyReference.cache
+C:\Users\Hiker\Downloads\FastColoredTextBox-master\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.Properties.Resources.resources
+E:\COM Terminal\COMx\serialport\FastColoredTextBox\bin\Debug\FastColoredTextBox.XML
+E:\COM Terminal\COMx\serialport\FastColoredTextBox\bin\Debug\FastColoredTextBox.dll
+E:\COM Terminal\COMx\serialport\FastColoredTextBox\bin\Debug\FastColoredTextBox.pdb
+E:\COM Terminal\COMx\serialport\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.FastColoredTextBox.resources
+E:\COM Terminal\COMx\serialport\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.FindForm.resources
+E:\COM Terminal\COMx\serialport\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.GoToForm.resources
+E:\COM Terminal\COMx\serialport\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.HotkeysEditorForm.resources
+E:\COM Terminal\COMx\serialport\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.Properties.Resources.resources
+E:\COM Terminal\COMx\serialport\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.ReplaceForm.resources
+E:\COM Terminal\COMx\serialport\FastColoredTextBox\obj\Debug\FastColoredTextBox.csproj.GenerateResource.Cache
+E:\COM Terminal\COMx\serialport\FastColoredTextBox\obj\Debug\FastColoredTextBox.dll
+E:\COM Terminal\COMx\serialport\FastColoredTextBox\obj\Debug\FastColoredTextBox.pdb
+E:\COM Terminal\COMx\serialport\FastColoredTextBox\obj\Debug\FastColoredTextBox.csprojResolveAssemblyReference.cache
+E:\COM Terminal\COMx\COM Terminal\FastColoredTextBox\bin\Debug\FastColoredTextBox.XML
+E:\COM Terminal\COMx\COM Terminal\FastColoredTextBox\bin\Debug\FastColoredTextBox.dll
+E:\COM Terminal\COMx\COM Terminal\FastColoredTextBox\bin\Debug\FastColoredTextBox.pdb
+E:\COM Terminal\COMx\COM Terminal\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.FastColoredTextBox.resources
+E:\COM Terminal\COMx\COM Terminal\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.FindForm.resources
+E:\COM Terminal\COMx\COM Terminal\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.GoToForm.resources
+E:\COM Terminal\COMx\COM Terminal\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.HotkeysEditorForm.resources
+E:\COM Terminal\COMx\COM Terminal\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.Properties.Resources.resources
+E:\COM Terminal\COMx\COM Terminal\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.ReplaceForm.resources
+E:\COM Terminal\COMx\COM Terminal\FastColoredTextBox\obj\Debug\FastColoredTextBox.csproj.GenerateResource.Cache
+E:\COM Terminal\COMx\COM Terminal\FastColoredTextBox\obj\Debug\FastColoredTextBox.dll
+E:\COM Terminal\COMx\COM Terminal\FastColoredTextBox\obj\Debug\FastColoredTextBox.pdb
+E:\COM Terminal\COMx\COM Terminal\FastColoredTextBox\obj\Debug\FastColoredTextBox.csprojResolveAssemblyReference.cache
+C:\Users\hiker\Documents\GitHub\ComTool\FastColoredTextBox\bin\Debug\FastColoredTextBox.XML
+C:\Users\hiker\Documents\GitHub\ComTool\FastColoredTextBox\bin\Debug\FastColoredTextBox.dll
+C:\Users\hiker\Documents\GitHub\ComTool\FastColoredTextBox\bin\Debug\FastColoredTextBox.pdb
+C:\Users\hiker\Documents\GitHub\ComTool\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.FastColoredTextBox.resources
+C:\Users\hiker\Documents\GitHub\ComTool\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.FindForm.resources
+C:\Users\hiker\Documents\GitHub\ComTool\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.GoToForm.resources
+C:\Users\hiker\Documents\GitHub\ComTool\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.HotkeysEditorForm.resources
+C:\Users\hiker\Documents\GitHub\ComTool\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.Properties.Resources.resources
+C:\Users\hiker\Documents\GitHub\ComTool\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.ReplaceForm.resources
+C:\Users\hiker\Documents\GitHub\ComTool\FastColoredTextBox\obj\Debug\FastColoredTextBox.csproj.GenerateResource.Cache
+C:\Users\hiker\Documents\GitHub\ComTool\FastColoredTextBox\obj\Debug\FastColoredTextBox.dll
+C:\Users\hiker\Documents\GitHub\ComTool\FastColoredTextBox\obj\Debug\FastColoredTextBox.pdb
+C:\Users\hiker\Documents\GitHub\ComTool\FastColoredTextBox\obj\Debug\FastColoredTextBox.csprojResolveAssemblyReference.cache

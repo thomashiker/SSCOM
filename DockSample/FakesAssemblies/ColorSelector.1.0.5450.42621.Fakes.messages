@@ -1,0 +1,4 @@
+E:\COM Terminal\COMx\serialport\DockSample\Fakes\ColorSelector.fakes : warning : Cannot generate stub for ColorHelper.ColorBox: type is not visible to exported or assembly(ColorSelector.1.0.5450.42621.Fakes).
+E:\COM Terminal\COMx\serialport\DockSample\Fakes\ColorSelector.fakes : warning : Cannot generate stub for ColorSelector.Properties.Resources: type is not visible to exported or assembly(ColorSelector.1.0.5450.42621.Fakes).
+E:\COM Terminal\COMx\serialport\DockSample\Fakes\ColorSelector.fakes : warning : Cannot generate shim for ColorHelper.ColorBox: type is not visible to exported or assembly(ColorSelector.1.0.5450.42621.Fakes).
+E:\COM Terminal\COMx\serialport\DockSample\Fakes\ColorSelector.fakes : warning : Cannot generate shim for ColorSelector.Properties.Resources: type is not visible to exported or assembly(ColorSelector.1.0.5450.42621.Fakes).

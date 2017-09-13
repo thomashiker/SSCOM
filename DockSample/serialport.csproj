@@ -1,0 +1,1118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{40793A27-478B-4357-B4C3-FC8943131F3D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DockSample</RootNamespace>
+    <AssemblyName>ComTool</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>imput_device.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CaptureImageTool">
+      <HintPath>Resources\ThirdParty\CaptureImageTool.dll</HintPath>
+    </Reference>
+    <Reference Include="ColorComboBox, Version=1.0.6189.21627, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ColorComboBox.dll</HintPath>
+    </Reference>
+    <Reference Include="ColorListBoxSelector">
+      <HintPath>Resources\ThirdParty\ColorListBoxSelector.dll</HintPath>
+    </Reference>
+    <Reference Include="ColorTextBox">
+      <HintPath>..\..\test\test\test\ColorTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="CSkin, Version=16.1.14.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\CSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="FastColoredTextBox, Version=2.16.2.0, Culture=neutral, PublicKeyToken=fb8aa12b994ef61b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\FastColoredTextBox\bin\Debug\FastColoredTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="FontListBox, Version=1.0.5453.2230, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\FontListBox.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialWinforms">
+      <HintPath>..\MaterialWinforms\bin\Debug\MaterialWinforms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="OfficePickers, Version=1.1.2769.15829, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\OfficePickers.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperContextMenu, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SuperContextMenu.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="VisualStudioTabControl">
+      <HintPath>..\VisualStudioTabControl\bin\Debug\VisualStudioTabControl.dll</HintPath>
+    </Reference>
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.11.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="WeifenLuo.WinFormsUI.Docking.ThemeVS2003, Version=2.11.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\theme\WeifenLuo.WinFormsUI.Docking.ThemeVS2003.dll</HintPath>
+    </Reference>
+    <Reference Include="WeifenLuo.WinFormsUI.Docking.ThemeVS2010, Version=2.11.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\theme\WeifenLuo.WinFormsUI.Docking.ThemeVS2010.dll</HintPath>
+    </Reference>
+    <Reference Include="WeifenLuo.WinFormsUI.Docking.ThemeVS2012, Version=2.11.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\theme\WeifenLuo.WinFormsUI.Docking.ThemeVS2012.dll</HintPath>
+    </Reference>
+    <Reference Include="WeifenLuo.WinFormsUI.Docking.ThemeVS2013, Version=2.11.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\theme\WeifenLuo.WinFormsUI.Docking.ThemeVS2013.dll</HintPath>
+    </Reference>
+    <Reference Include="WeifenLuo.WinFormsUI.Docking.ThemeVS2015, Version=2.11.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\theme\WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HistoryWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistoryWindow.Designer.cs">
+      <DependentUpon>HistoryWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewPortWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewPortWindow.Designer.cs">
+      <DependentUpon>NewPortWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PortOpenFailDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PortOpenFailDialog.Designer.cs">
+      <DependentUpon>PortOpenFailDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RepeatSendSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepeatSendSetting.Designer.cs">
+      <DependentUpon>RepeatSendSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="SendHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendHistoryForm.Designer.cs">
+      <DependentUpon>SendHistoryForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="HistoryWindow.resx">
+      <DependentUpon>HistoryWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewPortWindow.resx">
+      <DependentUpon>NewPortWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PortOpenFailDialog.resx">
+      <DependentUpon>PortOpenFailDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepeatSendSetting.resx">
+      <DependentUpon>RepeatSendSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendHistoryForm.resx">
+      <DependentUpon>SendHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Customization\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ReceiveWindowSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReceiveWindowSetting.Designer.cs">
+      <DependentUpon>ReceiveWindowSetting.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\ArrowDown.bmp" />
+    <None Include="Images\ArrowUp.bmp" />
+    <None Include="Images\Bitmap.ico" />
+    <None Include="Images\BlankIcon.ico" />
+    <None Include="Images\ClosedFolder.ICO" />
+    <None Include="Images\CSFile.ico" />
+    <None Include="Images\CSProject.ico" />
+    <None Include="Images\File.ico" />
+    <None Include="Images\Form.ico" />
+    <None Include="Images\Mouse.bmp" />
+    <None Include="Images\msenv22.ico" />
+    <None Include="Images\New.ico" />
+    <None Include="Images\Open.ico" />
+    <None Include="Images\OpenFolder.ICO" />
+    <None Include="Images\OutputWindow.ico" />
+    <None Include="Images\PropertyWindow.ico" />
+    <None Include="Images\Reference.ico" />
+    <None Include="Images\References.ico" />
+    <None Include="Images\SolutionExplorer.ico" />
+    <None Include="Images\TaskListWindow.ico" />
+    <None Include="Images\ToolboxWindow.ico" />
+    <None Include="Images\XmlFile.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Customization\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReceiveWindowSetting.resx">
+      <DependentUpon>ReceiveWindowSetting.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockIndicator_PaneDiamond.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockPaneStrip_ScrollRightEnabled.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockIndicator_PaneDiamond_Bottom.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\Dockindicator_PaneDiamond_Fill.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockIndicator_PaneDiamond_Hotspot.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockIndicator_PaneDiamond_HotspotIndex.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockIndicator_PaneDiamond_Left.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockIndicator_PaneDiamond_Right.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockIndicator_PaneDiamond_Top.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockIndicator_PanelBottom.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockIndicator_PanelBottom_Active.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockIndicator_PanelFill.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockIndicator_PanelFill_Active.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockIndicator_PanelLeft.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockIndicator_PanelLeft_Active.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockIndicator_PanelRight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockIndicator_PanelRight_Active.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockIndicator_PanelTop.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockIndicator_PanelTop_Active.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockPaneCaption_AutoHideNo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockPaneCaption_AutoHideYes.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockPaneCaption_CloseDisabled.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockPaneCaption_CloseEnabled.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockPaneStrip_CloseDisabled.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockPaneStrip_CloseEnabled.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockPaneStrip_ScrollLeftDisabled.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockPaneStrip_ScrollLeftEnabled.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Customization\Resources\DockPaneStrip_ScrollRightDisabled.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="imput_device.ico" />
+    <Content Include="Resources\DefaultIcon\ico\connect.ico" />
+    <Content Include="Resources\DefaultIcon\ico\connect128.ico" />
+    <Content Include="Resources\DefaultIcon\ico\connect16.ico" />
+    <Content Include="Resources\DefaultIcon\ico\connect24.ico" />
+    <Content Include="Resources\DefaultIcon\ico\connect48.ico" />
+    <Content Include="Resources\DefaultIcon\ico\connect64.ico" />
+    <Content Include="Resources\DefaultIcon\ico\connect96.ico" />
+    <Content Include="Resources\DefaultIcon\ico\connection_error.ico" />
+    <Content Include="Resources\DefaultIcon\ico\connection_error16.ico" />
+    <Content Include="Resources\DefaultIcon\ico\connection_error24.ico" />
+    <Content Include="Resources\DefaultIcon\ico\connection_error_alt.ico" />
+    <Content Include="Resources\DefaultIcon\ico\connect_alt.ico" />
+    <Content Include="Resources\DefaultIcon\ico\cross_16px_1155029_easyicon.net.ico" />
+    <Content Include="Resources\DefaultIcon\ico\cross_16px_1187461_easyicon.net.ico" />
+    <Content Include="Resources\DefaultIcon\ico\ship_128px_1164196_easyicon.net.ico" />
+    <Content Include="Resources\DefaultIcon\ico\sitemap_128px.ico" />
+    <Content Include="Resources\DefaultIcon\ico\terminal_32px.ico" />
+    <None Include="Resources\DefaultIcon\tool\pin_24px_1083523_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\tool\pin_16px_1169857_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\tool\pin_16px_1101853_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\tool\pin_16px_1083523_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\tool\pin_16.285714285714px_1145574_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\tool\ellipsis_16px.png" />
+    <None Include="Resources\DefaultIcon\tool\ellipsis_66.430379746835px_1157772_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\tool\pushpin_sticky_16px_1.png" />
+    <None Include="Resources\DefaultIcon\tool\pushpin_sticky_16px.png" />
+    <None Include="Resources\DefaultIcon\tool\Pushpin_black.png" />
+    <None Include="Resources\DefaultIcon\tool\MINIMIZE_16px_1162364_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\tool\minus_16px_1103570_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\tool\box_empty_16px_1143339_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\tool\gallery_16px_1157863_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\tool\settings_16px_1158175_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\tool\settings_16px_1158174_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\tool\toolbox_16px_1143536_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\tool\pushpin_16px_1158130_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\tool\arrow_triangle_up_16px_1143321_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\tool\close_16px_1143362_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\tool\t_shirt_black_16px_1099068_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\png\24x24\padlock_open_24px.png" />
+    <None Include="Resources\DefaultIcon\png\24x24\padlock_closed_24px.png" />
+    <None Include="Resources\DefaultIcon\png\24x24\padlock_open.png" />
+    <None Include="Resources\DefaultIcon\png\24x24\padlock_closed.png" />
+    <None Include="Resources\DefaultIcon\sysmenu\clock_16px_1176545_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\sysmenu\history_clock_16px_1145086_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\menu\cancel-inv.png" />
+    <None Include="Resources\DefaultIcon\menu\cancel.png" />
+    <None Include="Resources\DefaultIcon\menu\menu_btn_highlight.png" />
+    <None Include="Resources\DefaultIcon\menu\menu_btn_normal.png" />
+    <None Include="Resources\DefaultIcon\menu\aio_setting_down.png" />
+    <None Include="Resources\DefaultIcon\menu\aio_setting_hover.png" />
+    <None Include="Resources\DefaultIcon\menu\aio_setting_normal.png" />
+    <None Include="Resources\DefaultIcon\menu\sysbtn_min_down.png" />
+    <None Include="Resources\DefaultIcon\menu\sysbtn_min_hover.png" />
+    <None Include="Resources\DefaultIcon\menu\sysbtn_min_normal.png" />
+    <None Include="Resources\DefaultIcon\menu\sysbtn_restore_down.png" />
+    <None Include="Resources\DefaultIcon\menu\sysbtn_restore_hover.png" />
+    <None Include="Resources\DefaultIcon\menu\sysbtn_restore_normal.png" />
+    <None Include="Resources\DefaultIcon\menu\sysbtn_max_down.png" />
+    <None Include="Resources\DefaultIcon\menu\sysbtn_max_hover.png" />
+    <None Include="Resources\DefaultIcon\menu\sysbtn_max_normal.png" />
+    <None Include="Resources\DefaultIcon\menu\sysbtn_close_down.png" />
+    <None Include="Resources\DefaultIcon\menu\sysbtn_close_hover.png" />
+    <None Include="Resources\DefaultIcon\menu\sysbtn_close_normal.png" />
+    <None Include="Resources\DefaultIcon\png\24x24\cancel_24px_1074648_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\other\terminal_16px.png" />
+    <None Include="Resources\DefaultIcon\other\terminal_24px.png" />
+    <None Include="Resources\DefaultIcon\other\Monitor_Flat_16px_1123363_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\other\Monitor_Flat_24px_1123363_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\other\error_64px.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\zoom.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\wireless-router.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\window-tile.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\window.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\wi-fi.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\weight.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\web.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\weather-thunder.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\weather-sun.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\weather-snow.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\weather-rain.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\weather-cloud-sun.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\weather-clouds.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\weather-cloud.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\water-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\water.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\wallet.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\wall-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\wall.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\user-sleep.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\users-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\users.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\user-refresh.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\user-offline.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\user-male-alt-3.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\user-male-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\user-male-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\user-male.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\user-female-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\user-female-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\user-female.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\user-chat.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\user-art.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\user-alt-4.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\user-alt-3.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\user-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\user-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\user.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\unfold-multiple.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\unfold-from-top.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\unfold-from-right.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\unfold-from-left.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\unfold-from-bottom.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\twitter.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\truck.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\trophy.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\trash-full.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\trafficlight-red.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\trafficlight-orange.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\trafficlight-green.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\trafficlight.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\tie.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\thumbnails.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\tent.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\telephone.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\target.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\table.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\tab.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\switch-on-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\switch-on.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\switch-off-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\switch-off.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\store.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\stop-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\stop.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\sticky-note.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\statistics-pie-chart.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\stamp.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\spaceship.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\sitemap.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shape-triangle-scalene.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shape-triangle-rectangular.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shape-triangle-isosceles.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shape-triangle-equilateral.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shape-trapezoid.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shapes-rotate-clockwise.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shapes-rotate-anticlockwise.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shape-square.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shapes-flip-vertical.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shapes-flip-horizontal.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shapes-align-verti-top.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shapes-align-verti-middle.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shapes-align-verti-bottom.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shapes-align-hori-right.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shapes-align-hori-left.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shapes-align-hori-center.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shape-rhombus.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shape-pentagon.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shape-parallelogram-orthogonal.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shape-kite.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shape-hexagon.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shape-ellipse.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shape-circle.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\servers.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\server.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\search-advanced.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\search.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\script.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\science.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\safety-box.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\ruler-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\ruler.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\ruby.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\rss.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\road-sign.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\rip.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\report.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\remote-control.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\register.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\refreshment.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\projector.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\printer-preview.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\printer.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\print-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\print.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\presentation.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\preferences.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\power-standby.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\power-on-off.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\power-on.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\power-off.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\pollution.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\podcast.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\plugin-disabled.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\plugin.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\pinetree.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\pill.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\pen.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\pattern.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\park-bench.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\paintroller-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\paintroller.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\padlock-closed.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\orientation-portrait.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\orientation-landscape.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\open-source.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\open-in-new-window.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\node.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\network-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\network.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\navigation-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\navigation-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\navigation.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\mouse.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\moon.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\moleskine.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\module.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\mobile-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\mobile.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\medal-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\medal.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-volume-up.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-volume-down.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-volume-3.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-volume-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-volume-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-volume-0-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-volume-0.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-vinyl-45.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-vinyl-33-1-3.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-video.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-tv.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-time-pos-set.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-time-position.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-time-pos-forward.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-time-pos-back.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-synth.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-stream-video.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-stream-audio.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-split.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-speaker-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-speaker.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-sound.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-radio.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-picture-broken-link-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-picture-broken-link.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-photos-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-photos.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-photo-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-photo-alt 2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-photo.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-music.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-minidisc.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-microphone-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-microphone.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-levels-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-levels.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-knob-volume.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-knob-increase.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-knob-decrease.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-knob-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-knob.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-inverse.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-headphones-mic.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-headphones-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-headphones.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-flash.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-film.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-fast-forward-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-fast-forward.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-fast-backward-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-fast-backward.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-equalizer-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-equalizer.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-disc-5-1-4%27%27.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-disc-3-5%27%27.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-disc-3%27%27.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-dat.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-contrast.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-cd-card.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-cd-burn.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-cd.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-cassette-tape.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-camera-web.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-camera-video-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-camera-video-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-camera-video.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-camera-surveillance.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-camera-polaroid.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-camera-photo-alt-3.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-camera-photo-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-camera-photo-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-camera-photo.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-brightness.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-betamax.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-backward.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-audio.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-aspect-ratio-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-aspect-ratio.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-analog.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\map.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\man.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\mail-read.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\mail-inbox.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\mail.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\magnet.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\luck.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\link.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\license-key.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\layout-sidebar.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\layout-header.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\layout-content.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\layout.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\layers.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\lamp-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\lamp-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\lamp.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\label.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\kraftwerk.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\kokoretsi.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\key-windows.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\key-tab.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\key-shift.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\key-page-down.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\key-option.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\keyhole.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\key-enter.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\key-control.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\key-command.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\key-caps.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\keyboard.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\key-backspace-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\key-backspace.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\key-apple.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\key-Alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\key-A.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\key.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\i-pod.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\i-phone.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\info.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\idea-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\idea.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\icecream.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\home.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\high-definition.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\hierarchy.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\help-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\help.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\hedge.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\hardware-chip.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\hammer-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\grid-dot.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\grid-alt-3.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\grid-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\grid-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\grid.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\glasses-swim.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\glasses.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\gift.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\games-alt-6.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\games-alt-5.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\games-alt-4.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\games-alt-3.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\games-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\games-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\games.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\gameboy.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\full-screen-exit-alt-5.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\full-screen-exit-alt-4.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\full-screen-exit-alt-3.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\full-screen-exit-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\full-screen-exit-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\full-screen-alt-5.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\full-screen-alt-4.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\full-screen-alt-3.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\full-screen-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\full-screen-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\ftp-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\ftp.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\food.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\folder.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\flag.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\first-aid-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\first-aid.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\firewire.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\firewall.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\fire.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\filter.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\fill.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\file-upload-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\files.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\file-remove.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\file-download-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\favourite.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\fan-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\fan.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\factory.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\facebook-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\facebook.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\export.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\ethernet.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\enter.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\elevator.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\eightball.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\edit-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\edit-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\edit.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\drive-network.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\drive-disk-cd.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\drill.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\drawer-unlocked.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\drawers-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\drawers-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\drawers.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\drawer-locked.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\drawer.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\download-alt-4.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\download-alt-3.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\download-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\download-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\download.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\door.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\documents.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\document-new.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\document-empty.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\display-mac-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\display.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\directions-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\directions.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\database-user-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\database-user.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\database-upload-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\database-upload.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\database-reload-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\database-reload-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\database-reload.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\database-download-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\database-download.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\database-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\database-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\database-add-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\database-add.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\database.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\data-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\data-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\data.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\cup-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\cup.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\cross.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\credit-card.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\couch-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\couch-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\couch.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\controls-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\controls-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\controls.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\construction.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\connection-error-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\connect-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\connect-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\computer-retro.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\computer-laptop.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\computer.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\compress.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\compass-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\compass.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\comment-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\comment.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\color-swatch.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\color-picker.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\city.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\cinema.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\check.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\chat-alt-3.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\chat-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\chat-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\chat-active-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\chat.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\chair-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\chair.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\cart-alt-6.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\cart-alt-5.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\cart-alt-4.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\cart-alt-3.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\cart-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\cart-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\cart.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\calendar-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\calendar-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\calendar.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\calculator-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\calculator.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\cake-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\cake.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\bussiness-card.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\bug.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\brush.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\briefcase.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\box-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\box.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\books.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\book-alt-4.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\book-alt-3.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\book-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\book-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\book.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\bluetooth.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\blog.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\bicycle.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\battery-full-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\battery-full.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\battery-empty-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\battery-empty.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\basket-alt-3.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\basket-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\basket-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\basket.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\barcode.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\bank-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\bank-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\bank.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\balance.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\baggage.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\bag-alt-5.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\bag-alt-4.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\bag-alt-3.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\bag-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\bag-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\bag.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\axis-x-y-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\axis-x-y.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\attachment.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\asterisk-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\asterisk.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-orthogonal-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-circular-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-circular-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-7-down.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-6-up.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-6-right.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-6-left.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-6-down.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-5-up.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-5-right.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-5-left.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-4-up-right.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-4-up-left.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-4-right.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-4-left.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-4-down-right.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-4-down-left.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-3-up-right.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-3-up-left.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-3-down-right.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-2-up-right.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-2-up-left.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-2-up.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-2-down-right.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-2-down-left.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-2-down.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-1-up-right.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-1-up-left.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-1-up.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-1-right.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-1-left.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-1-forward.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-1-down-right.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-1-down-left.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-1-down.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-1-backward.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\antivirus-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\antivirus.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\announce.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\anchor.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\alert-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\alert.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\airport.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\address-book.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\activity.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\access.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\about.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\8-direction-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\8-direction.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\4-direction-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\4-direction.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\3D-Z-Axis-Rotation.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\3D-Y-Axis-Rotation.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\3D-wedge.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\3D-sphere.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\3D-pyramid.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\3D-plane.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\3D-glasses.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\3D-cylinder.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\3D-Cube.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\3D_X_Axis_Rotation.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\full-screen-exit.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\full-screen.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\ftp-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\view.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-7-right.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-7-left.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-2-right.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-2-left.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-8-right.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-8-left.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-record.png" />
+    <None Include="Resources\DefaultIcon\other\hourglass_clock_15.968063872255px_1159604_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\chat-active-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\tag.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\resize.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\file-download.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-vhs.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\read-only.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\tags.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\cut.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\list-unordered.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\location.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-repeat-once.png" />
+    <None Include="Resources\DefaultIcon\png\24x24\MD_repeat_alt_24px_1074955_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\user-locked.png" />
+    <None Include="Resources\DefaultIcon\other\minus_math_16px_1169898_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\other\square_minus_16px_1187534_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\window-stack.png" />
+    <None Include="Resources\DefaultIcon\other\error_64px_1169843_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\png\128x128\help.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\cheque.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\checkbox-empty.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\checkbox.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shapes-move-front.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shapes-move-forward.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shapes-move-backward.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\shapes-move-back.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\badge.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\file-edit.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-3-right.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-3-left.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-3-up.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-3-down.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\edit-document.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\delete.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\code.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\favourite-add.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\map-marker-pin.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\hardware-processor.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\paste.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\copy.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\window-tile-vertically.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\window-tile-horizontally.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\bookmark.png" />
+    <None Include="Resources\DefaultIcon\other\send_file_16.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\file-add.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\door-closed.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\no.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-shuffle.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-repeat.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-reload.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-previous.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-next.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-levels-increase.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-levels-decrease.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-play.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-resume.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-pause.png" />
+    <None Include="Resources\DefaultIcon\other\console.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-5-down.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-4-up.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-4-down.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\database-upload-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\database-download-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\time-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\brush-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\add.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\list-ordered.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\screenshot.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\notepad-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-8-down.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\login.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\check-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\font.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\typewritter.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\trash-empty.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-3-down-left.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\cancel.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\counter.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\wizard.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\connection-error-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\24x24\display_mac_24px_1074732_easyicon.net.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\connection-error.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\display-mac.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\zoom-out.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\zoom-in.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\toolbox.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\key-page-up.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\connect.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\alarm.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\document.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-8-up.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\padlock-open.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-repeat-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\terminal.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-eject.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\eraser.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\find.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\star.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\hammer.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\file.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\folder-open.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\notepad.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\MD-stop.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\brush-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\list-numbered.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\bookmark-alt.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\crop.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\settings.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\save.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\statistics-chart.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\chat-active.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\content.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\database-remove-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\database-remove.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\database-remove-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\database-add-alt-2.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\stopwatch.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\list.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\time.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-orthogonal-alt-1.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\file-upload.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\link-broken.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\logout.png" />
+    <None Include="Resources\DefaultIcon\png\32x32\logout.png" />
+    <None Include="Resources\WDS_Google_Plus_UI_Icons_19196799480221102\PNG\color_18\heart.png" />
+    <None Include="Resources\WDS_Google_Plus_UI_Icons_19196799480221102\PNG\color_18\mail.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\mail-sent.png" />
+    <None Include="Resources\DefaultIcon\png\32x32\mail-sent.png" />
+    <None Include="Resources\DefaultIcon\png\48x48\arrow-7-up.png" />
+    <None Include="Resources\DefaultIcon\png\32x32\arrow-7-up.png" />
+    <None Include="Resources\DefaultIcon\png\16x16\arrow-7-up.png" />
+    <None Include="Resources\WDS_Google_Plus_UI_Icons_19196799480221102\PNG\color_18\clock.png" />
+    <None Include="Resources\WDS_Google_Plus_UI_Icons_19196799480221102\PNG\color_18\emoticon_grin.png" />
+    <None Include="Resources\WDS_Google_Plus_UI_Icons_19196799480221102\PNG\color_18\emoticon_smile.png" />
+    <None Include="Resources\WDS_Google_Plus_UI_Icons_19196799480221102\PNG\color_18\emoticon_sad.png" />
+    <None Include="Resources\WDS_Google_Plus_UI_Icons_19196799480221102\PNG\gray_18\emoticon_sad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PortSettingContexMenu\PortSettingContextMenu.csproj">
+      <Project>{a489c81e-bacd-4670-b68c-608f222763f3}</Project>
+      <Name>PortSettingContextMenu</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TextListContextMenu\TextListContextMenu.csproj">
+      <Project>{6c3b6f06-4557-4348-80fe-334bed88a79a}</Project>
+      <Name>TextListContextMenu</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

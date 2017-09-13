@@ -1,0 +1,8 @@
+C:\Users\hiker\Documents\GitHub\SSCOM\TextListContextMenu\bin\Debug\TextListContextMenu.dll
+C:\Users\hiker\Documents\GitHub\SSCOM\TextListContextMenu\bin\Debug\TextListContextMenu.pdb
+C:\Users\hiker\Documents\GitHub\SSCOM\TextListContextMenu\obj\Debug\TextListContextMenu.csprojResolveAssemblyReference.cache
+C:\Users\hiker\Documents\GitHub\SSCOM\TextListContextMenu\obj\Debug\TextListContextMenu.TextListContextMenu.resources
+C:\Users\hiker\Documents\GitHub\SSCOM\TextListContextMenu\obj\Debug\TextListContextMenu.Properties.Resources.resources
+C:\Users\hiker\Documents\GitHub\SSCOM\TextListContextMenu\obj\Debug\TextListContextMenu.csproj.GenerateResource.Cache
+C:\Users\hiker\Documents\GitHub\SSCOM\TextListContextMenu\obj\Debug\TextListContextMenu.dll
+C:\Users\hiker\Documents\GitHub\SSCOM\TextListContextMenu\obj\Debug\TextListContextMenu.pdb

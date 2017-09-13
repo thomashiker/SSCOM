@@ -1,0 +1,1304 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ColorSelector.1.0.5450.42621.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:ColorHelper.Fakes.ShimColorSelector">
+            <summary>Shim type of ColorHelper.ColorSelector</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.ShimColorSelector.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.ShimColorSelector.#ctor(ColorHelper.ColorSelector)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.ShimColorSelector.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.ShimColorSelector.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.ShimColorSelector.Bind(System.ComponentModel.IComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.ShimColorSelector.Bind(System.ComponentModel.ISynchronizeInvoke)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.ShimColorSelector.Bind(System.Windows.Forms.IBindableComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.ShimColorSelector.Bind(System.Windows.Forms.IContainerControl)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.ShimColorSelector.Bind(System.Windows.Forms.IDropTarget)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.ShimColorSelector.Bind(System.Windows.Forms.IWin32Window)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.ShimColorSelector.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.Constructor">
+            <summary>Sets the shim of ColorSelector.ColorSelector()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.DefaultColorGet">
+            <summary>Sets the shim of ColorSelector.get_DefaultColor()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.DefaultColorSetColor">
+            <summary>Sets the shim of ColorSelector.set_DefaultColor(Color value)</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.DisposeBoolean">
+            <summary>Sets the shim of ColorSelector.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.InitializeComponent">
+            <summary>Sets the shim of ColorSelector.InitializeComponent()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.LoadColorBox">
+            <summary>Sets the shim of ColorSelector.LoadColorBox()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.LoadSystemColors">
+            <summary>Sets the shim of ColorSelector.LoadSystemColors()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.SelectedBackColorGet">
+            <summary>Sets the shim of ColorSelector.get_SelectedBackColor()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.SelectedBackColorSetBoolean">
+            <summary>Sets the shim of ColorSelector.set_SelectedBackColor(Boolean value)</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.SelectedColorGet">
+            <summary>Sets the shim of ColorSelector.get_SelectedColor()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.SelectedColorSetColor">
+            <summary>Sets the shim of ColorSelector.set_SelectedColor(Color value)</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.SelectedForeColorGet">
+            <summary>Sets the shim of ColorSelector.get_SelectedForeColor()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.SelectedForeColorSetBoolean">
+            <summary>Sets the shim of ColorSelector.set_SelectedForeColor(Boolean value)</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.cb_MouseClickObjectMouseEventArgs">
+            <summary>Sets the shim of ColorSelector.cb_MouseClick(Object sender, MouseEventArgs e)</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.lbSysColors_DrawItemObjectDrawItemEventArgs">
+            <summary>Sets the shim of ColorSelector.lbSysColors_DrawItem(Object sender, DrawItemEventArgs e)</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.lbSysColors_SelectedIndexChangedObjectEventArgs">
+            <summary>Sets the shim of ColorSelector.lbSysColors_SelectedIndexChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.lblMore_ClickObjectEventArgs">
+            <summary>Sets the shim of ColorSelector.lblMore_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="T:ColorHelper.Fakes.ShimColorSelector.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.AllInstances.DefaultColorGet">
+            <summary>Sets the shim of ColorSelector.get_DefaultColor()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.AllInstances.DefaultColorSetColor">
+            <summary>Sets the shim of ColorSelector.set_DefaultColor(Color value)</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of ColorSelector.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.AllInstances.InitializeComponent">
+            <summary>Sets the shim of ColorSelector.InitializeComponent()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.AllInstances.LoadColorBox">
+            <summary>Sets the shim of ColorSelector.LoadColorBox()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.AllInstances.LoadSystemColors">
+            <summary>Sets the shim of ColorSelector.LoadSystemColors()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.AllInstances.SelectedBackColorGet">
+            <summary>Sets the shim of ColorSelector.get_SelectedBackColor()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.AllInstances.SelectedBackColorSetBoolean">
+            <summary>Sets the shim of ColorSelector.set_SelectedBackColor(Boolean value)</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.AllInstances.SelectedColorGet">
+            <summary>Sets the shim of ColorSelector.get_SelectedColor()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.AllInstances.SelectedColorSetColor">
+            <summary>Sets the shim of ColorSelector.set_SelectedColor(Color value)</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.AllInstances.SelectedForeColorGet">
+            <summary>Sets the shim of ColorSelector.get_SelectedForeColor()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.AllInstances.SelectedForeColorSetBoolean">
+            <summary>Sets the shim of ColorSelector.set_SelectedForeColor(Boolean value)</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.AllInstances.cb_MouseClickObjectMouseEventArgs">
+            <summary>Sets the shim of ColorSelector.cb_MouseClick(Object sender, MouseEventArgs e)</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.AllInstances.lbSysColors_DrawItemObjectDrawItemEventArgs">
+            <summary>Sets the shim of ColorSelector.lbSysColors_DrawItem(Object sender, DrawItemEventArgs e)</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.AllInstances.lbSysColors_SelectedIndexChangedObjectEventArgs">
+            <summary>Sets the shim of ColorSelector.lbSysColors_SelectedIndexChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.ShimColorSelector.AllInstances.lblMore_ClickObjectEventArgs">
+            <summary>Sets the shim of ColorSelector.lblMore_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="T:ColorHelper.Fakes.StubColorSelector">
+            <summary>Stub type of ColorHelper.ColorSelector</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AdjustFormScrollbars(System.Boolean)">
+            <summary>Sets the stub of ContainerControl.AdjustFormScrollbars(Boolean displayScrollbars)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.AdjustFormScrollbarsBoolean">
+            <summary>Sets the stub of ContainerControl.AdjustFormScrollbars(Boolean displayScrollbars)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.AllowDropGet">
+            <summary>Sets the stub of Control.get_AllowDrop()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.AllowDropSetBoolean">
+            <summary>Sets the stub of Control.set_AllowDrop(Boolean value)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.AnchorGet">
+            <summary>Sets the stub of Control.get_Anchor()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.AnchorSetAnchorStyles">
+            <summary>Sets the stub of Control.set_Anchor(AnchorStyles value)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToAllowDrop">
+            <summary>Attaches delegates to emulate StubColorSelector.AllowDrop as a property with a backing field.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToAnchor">
+            <summary>Attaches delegates to emulate StubColorSelector.Anchor as a property with a backing field.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToAutoScroll">
+            <summary>Attaches delegates to emulate StubColorSelector.AutoScroll as a property with a backing field.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToAutoScrollOffset">
+            <summary>Attaches delegates to emulate StubColorSelector.AutoScrollOffset as a property with a backing field.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToAutoSize">
+            <summary>Attaches delegates to emulate StubColorSelector.AutoSize as a property with a backing field.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToAutoValidate">
+            <summary>Attaches delegates to emulate StubColorSelector.AutoValidate as a property with a backing field.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToBackColor">
+            <summary>Attaches delegates to emulate StubColorSelector.BackColor as a property with a backing field.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToBackgroundImage">
+            <summary>Attaches delegates to emulate StubColorSelector.BackgroundImage as a property with a backing field.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToBackgroundImageLayout">
+            <summary>Attaches delegates to emulate StubColorSelector.BackgroundImageLayout as a property with a backing field.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToBindingContext">
+            <summary>Attaches delegates to emulate StubColorSelector.BindingContext as a property with a backing field.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToContextMenu">
+            <summary>Attaches delegates to emulate StubColorSelector.ContextMenu as a property with a backing field.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToContextMenuStrip">
+            <summary>Attaches delegates to emulate StubColorSelector.ContextMenuStrip as a property with a backing field.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToCursor">
+            <summary>Attaches delegates to emulate StubColorSelector.Cursor as a property with a backing field.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToDock">
+            <summary>Attaches delegates to emulate StubColorSelector.Dock as a property with a backing field.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToDoubleBuffered">
+            <summary>Attaches delegates to emulate StubColorSelector.DoubleBuffered as a property with a backing field.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToFont">
+            <summary>Attaches delegates to emulate StubColorSelector.Font as a property with a backing field.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToForeColor">
+            <summary>Attaches delegates to emulate StubColorSelector.ForeColor as a property with a backing field.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToImeModeBase">
+            <summary>Attaches delegates to emulate StubColorSelector.ImeModeBase as a property with a backing field.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToMaximumSize">
+            <summary>Attaches delegates to emulate StubColorSelector.MaximumSize as a property with a backing field.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToMinimumSize">
+            <summary>Attaches delegates to emulate StubColorSelector.MinimumSize as a property with a backing field.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToRightToLeft">
+            <summary>Attaches delegates to emulate StubColorSelector.RightToLeft as a property with a backing field.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToSite">
+            <summary>Attaches delegates to emulate StubColorSelector.Site as a property with a backing field.</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.AttachBackingFieldToText">
+            <summary>Attaches delegates to emulate StubColorSelector.Text as a property with a backing field.</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.AutoScrollGet">
+            <summary>Sets the stub of ScrollableControl.get_AutoScroll()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.AutoScrollOffsetGet">
+            <summary>Sets the stub of Control.get_AutoScrollOffset()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.AutoScrollOffsetSetPoint">
+            <summary>Sets the stub of Control.set_AutoScrollOffset(Point value)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.AutoScrollSetBoolean">
+            <summary>Sets the stub of ScrollableControl.set_AutoScroll(Boolean value)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.AutoSizeGet">
+            <summary>Sets the stub of UserControl.get_AutoSize()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.AutoSizeSetBoolean">
+            <summary>Sets the stub of UserControl.set_AutoSize(Boolean value)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.AutoValidateGet">
+            <summary>Sets the stub of UserControl.get_AutoValidate()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.AutoValidateSetAutoValidate">
+            <summary>Sets the stub of UserControl.set_AutoValidate(AutoValidate value)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.BackColorGet">
+            <summary>Sets the stub of Control.get_BackColor()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.BackColorSetColor">
+            <summary>Sets the stub of Control.set_BackColor(Color value)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.BackgroundImageGet">
+            <summary>Sets the stub of Control.get_BackgroundImage()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.BackgroundImageLayoutGet">
+            <summary>Sets the stub of Control.get_BackgroundImageLayout()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.BackgroundImageLayoutSetImageLayout">
+            <summary>Sets the stub of Control.set_BackgroundImageLayout(ImageLayout value)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.BackgroundImageSetImage">
+            <summary>Sets the stub of Control.set_BackgroundImage(Image value)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.BindingContextGet">
+            <summary>Sets the stub of ContainerControl.get_BindingContext()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.BindingContextSetBindingContext">
+            <summary>Sets the stub of ContainerControl.set_BindingContext(BindingContext value)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.CanEnableImeGet">
+            <summary>Sets the stub of ContainerControl.get_CanEnableIme()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.CanRaiseEventsGet">
+            <summary>Sets the stub of Control.get_CanRaiseEvents()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ContextMenuGet">
+            <summary>Sets the stub of Control.get_ContextMenu()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ContextMenuSetContextMenu">
+            <summary>Sets the stub of Control.set_ContextMenu(ContextMenu value)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ContextMenuStripGet">
+            <summary>Sets the stub of Control.get_ContextMenuStrip()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ContextMenuStripSetContextMenuStrip">
+            <summary>Sets the stub of Control.set_ContextMenuStrip(ContextMenuStrip value)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.CreateAccessibilityInstance">
+            <summary>Sets the stub of Control.CreateAccessibilityInstance()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.CreateAccessibilityInstance01">
+            <summary>Sets the stub of Control.CreateAccessibilityInstance()</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.CreateControlsInstance">
+            <summary>Sets the stub of Control.CreateControlsInstance()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.CreateControlsInstance01">
+            <summary>Sets the stub of Control.CreateControlsInstance()</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.CreateHandle">
+            <summary>Sets the stub of Control.CreateHandle()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.CreateHandle01">
+            <summary>Sets the stub of Control.CreateHandle()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.CreateParamsGet">
+            <summary>Sets the stub of UserControl.get_CreateParams()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.CursorGet">
+            <summary>Sets the stub of Control.get_Cursor()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.CursorSetCursor">
+            <summary>Sets the stub of Control.set_Cursor(Cursor value)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.DefWndProc(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Control.DefWndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.DefWndProcMessageRef">
+            <summary>Sets the stub of Control.DefWndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.DefaultCursorGet">
+            <summary>Sets the stub of Control.get_DefaultCursor()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.DefaultImeModeGet">
+            <summary>Sets the stub of Control.get_DefaultImeMode()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.DefaultMarginGet">
+            <summary>Sets the stub of Control.get_DefaultMargin()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.DefaultMaximumSizeGet">
+            <summary>Sets the stub of Control.get_DefaultMaximumSize()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.DefaultMinimumSizeGet">
+            <summary>Sets the stub of Control.get_DefaultMinimumSize()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.DefaultPaddingGet">
+            <summary>Sets the stub of Control.get_DefaultPadding()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.DefaultSizeGet">
+            <summary>Sets the stub of UserControl.get_DefaultSize()</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.DestroyHandle">
+            <summary>Sets the stub of Control.DestroyHandle()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.DestroyHandle01">
+            <summary>Sets the stub of Control.DestroyHandle()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.DisplayRectangleGet">
+            <summary>Sets the stub of ScrollableControl.get_DisplayRectangle()</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.Dispose(System.Boolean)">
+            <summary>Sets the stub of ColorSelector.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.DisposeBoolean">
+            <summary>Sets the stub of ColorSelector.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.DockGet">
+            <summary>Sets the stub of Control.get_Dock()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.DockSetDockStyle">
+            <summary>Sets the stub of Control.set_Dock(DockStyle value)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.DoubleBufferedGet">
+            <summary>Sets the stub of Control.get_DoubleBuffered()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.DoubleBufferedSetBoolean">
+            <summary>Sets the stub of Control.set_DoubleBuffered(Boolean value)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.FocusedGet">
+            <summary>Sets the stub of Control.get_Focused()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.FontGet">
+            <summary>Sets the stub of Control.get_Font()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.FontSetFont">
+            <summary>Sets the stub of Control.set_Font(Font value)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ForeColorGet">
+            <summary>Sets the stub of Control.get_ForeColor()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ForeColorSetColor">
+            <summary>Sets the stub of Control.set_ForeColor(Color value)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.GetAccessibilityObjectById(System.Int32)">
+            <summary>Sets the stub of Control.GetAccessibilityObjectById(Int32 objectId)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.GetAccessibilityObjectByIdInt32">
+            <summary>Sets the stub of Control.GetAccessibilityObjectById(Int32 objectId)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.GetPreferredSize(System.Drawing.Size)">
+            <summary>Sets the stub of Control.GetPreferredSize(Size proposedSize)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.GetPreferredSizeSize">
+            <summary>Sets the stub of Control.GetPreferredSize(Size proposedSize)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.GetScaledBounds(System.Drawing.Rectangle,System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>Sets the stub of Control.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.GetScaledBoundsRectangleSizeFBoundsSpecified">
+            <summary>Sets the stub of Control.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.GetService(System.Type)">
+            <summary>Sets the stub of Component.GetService(Type service)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.GetServiceType">
+            <summary>Sets the stub of Component.GetService(Type service)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ImeModeBaseGet">
+            <summary>Sets the stub of Control.get_ImeModeBase()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ImeModeBaseSetImeMode">
+            <summary>Sets the stub of Control.set_ImeModeBase(ImeMode value)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.InitLayout">
+            <summary>Sets the stub of Control.InitLayout()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.InitLayout01">
+            <summary>Sets the stub of Control.InitLayout()</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.InitializeStub">
+            <summary>Initializes a new instance of type StubColorSelector</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.IsInputChar(System.Char)">
+            <summary>Sets the stub of Control.IsInputChar(Char charCode)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.IsInputCharChar">
+            <summary>Sets the stub of Control.IsInputChar(Char charCode)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.IsInputKey(System.Windows.Forms.Keys)">
+            <summary>Sets the stub of Control.IsInputKey(Keys keyData)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.IsInputKeyKeys">
+            <summary>Sets the stub of Control.IsInputKey(Keys keyData)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.LayoutEngineGet">
+            <summary>Sets the stub of Control.get_LayoutEngine()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.MaximumSizeGet">
+            <summary>Sets the stub of Control.get_MaximumSize()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.MaximumSizeSetSize">
+            <summary>Sets the stub of Control.set_MaximumSize(Size value)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.MinimumSizeGet">
+            <summary>Sets the stub of Control.get_MinimumSize()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.MinimumSizeSetSize">
+            <summary>Sets the stub of Control.set_MinimumSize(Size value)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.NotifyInvalidate(System.Drawing.Rectangle)">
+            <summary>Sets the stub of Control.NotifyInvalidate(Rectangle invalidatedArea)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.NotifyInvalidateRectangle">
+            <summary>Sets the stub of Control.NotifyInvalidate(Rectangle invalidatedArea)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnAutoSizeChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnAutoSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnAutoSizeChangedEventArgs">
+            <summary>Sets the stub of Control.OnAutoSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnAutoValidateChanged(System.EventArgs)">
+            <summary>Sets the stub of ContainerControl.OnAutoValidateChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnAutoValidateChangedEventArgs">
+            <summary>Sets the stub of ContainerControl.OnAutoValidateChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnBackColorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnBackColorChangedEventArgs">
+            <summary>Sets the stub of Control.OnBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnBackgroundImageChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnBackgroundImageChangedEventArgs">
+            <summary>Sets the stub of Control.OnBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnBackgroundImageLayoutChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnBackgroundImageLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnBackgroundImageLayoutChangedEventArgs">
+            <summary>Sets the stub of Control.OnBackgroundImageLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnBindingContextChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnBindingContextChangedEventArgs">
+            <summary>Sets the stub of Control.OnBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnCausesValidationChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnCausesValidationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnCausesValidationChangedEventArgs">
+            <summary>Sets the stub of Control.OnCausesValidationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnChangeUICues(System.Windows.Forms.UICuesEventArgs)">
+            <summary>Sets the stub of Control.OnChangeUICues(UICuesEventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnChangeUICuesUICuesEventArgs">
+            <summary>Sets the stub of Control.OnChangeUICues(UICuesEventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnClick(System.EventArgs)">
+            <summary>Sets the stub of Control.OnClick(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnClickEventArgs">
+            <summary>Sets the stub of Control.OnClick(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnClientSizeChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnClientSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnClientSizeChangedEventArgs">
+            <summary>Sets the stub of Control.OnClientSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnContextMenuChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnContextMenuChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnContextMenuChangedEventArgs">
+            <summary>Sets the stub of Control.OnContextMenuChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnContextMenuStripChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnContextMenuStripChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnContextMenuStripChangedEventArgs">
+            <summary>Sets the stub of Control.OnContextMenuStripChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnControlAdded(System.Windows.Forms.ControlEventArgs)">
+            <summary>Sets the stub of Control.OnControlAdded(ControlEventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnControlAddedControlEventArgs">
+            <summary>Sets the stub of Control.OnControlAdded(ControlEventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnControlRemoved(System.Windows.Forms.ControlEventArgs)">
+            <summary>Sets the stub of Control.OnControlRemoved(ControlEventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnControlRemovedControlEventArgs">
+            <summary>Sets the stub of Control.OnControlRemoved(ControlEventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnCreateControl">
+            <summary>Sets the stub of UserControl.OnCreateControl()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnCreateControl01">
+            <summary>Sets the stub of UserControl.OnCreateControl()</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnCursorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnCursorChangedEventArgs">
+            <summary>Sets the stub of Control.OnCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnDockChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnDockChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnDockChangedEventArgs">
+            <summary>Sets the stub of Control.OnDockChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnDoubleClick(System.EventArgs)">
+            <summary>Sets the stub of Control.OnDoubleClick(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnDoubleClickEventArgs">
+            <summary>Sets the stub of Control.OnDoubleClick(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnDragDrop(System.Windows.Forms.DragEventArgs)">
+            <summary>Sets the stub of Control.OnDragDrop(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnDragDropDragEventArgs">
+            <summary>Sets the stub of Control.OnDragDrop(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnDragEnter(System.Windows.Forms.DragEventArgs)">
+            <summary>Sets the stub of Control.OnDragEnter(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnDragEnterDragEventArgs">
+            <summary>Sets the stub of Control.OnDragEnter(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnDragLeave(System.EventArgs)">
+            <summary>Sets the stub of Control.OnDragLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnDragLeaveEventArgs">
+            <summary>Sets the stub of Control.OnDragLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnDragOver(System.Windows.Forms.DragEventArgs)">
+            <summary>Sets the stub of Control.OnDragOver(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnDragOverDragEventArgs">
+            <summary>Sets the stub of Control.OnDragOver(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnEnabledChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnEnabledChangedEventArgs">
+            <summary>Sets the stub of Control.OnEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnEnter(System.EventArgs)">
+            <summary>Sets the stub of Control.OnEnter(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnEnterEventArgs">
+            <summary>Sets the stub of Control.OnEnter(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnFontChanged(System.EventArgs)">
+            <summary>Sets the stub of ContainerControl.OnFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnFontChangedEventArgs">
+            <summary>Sets the stub of ContainerControl.OnFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnForeColorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnForeColorChangedEventArgs">
+            <summary>Sets the stub of Control.OnForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnGiveFeedback(System.Windows.Forms.GiveFeedbackEventArgs)">
+            <summary>Sets the stub of Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnGiveFeedbackGiveFeedbackEventArgs">
+            <summary>Sets the stub of Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnGotFocus(System.EventArgs)">
+            <summary>Sets the stub of Control.OnGotFocus(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnGotFocusEventArgs">
+            <summary>Sets the stub of Control.OnGotFocus(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnHandleCreated(System.EventArgs)">
+            <summary>Sets the stub of Control.OnHandleCreated(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnHandleCreatedEventArgs">
+            <summary>Sets the stub of Control.OnHandleCreated(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnHandleDestroyed(System.EventArgs)">
+            <summary>Sets the stub of Control.OnHandleDestroyed(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnHandleDestroyedEventArgs">
+            <summary>Sets the stub of Control.OnHandleDestroyed(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnHelpRequested(System.Windows.Forms.HelpEventArgs)">
+            <summary>Sets the stub of Control.OnHelpRequested(HelpEventArgs hevent)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnHelpRequestedHelpEventArgs">
+            <summary>Sets the stub of Control.OnHelpRequested(HelpEventArgs hevent)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnImeModeChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnImeModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnImeModeChangedEventArgs">
+            <summary>Sets the stub of Control.OnImeModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnInvalidated(System.Windows.Forms.InvalidateEventArgs)">
+            <summary>Sets the stub of Control.OnInvalidated(InvalidateEventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnInvalidatedInvalidateEventArgs">
+            <summary>Sets the stub of Control.OnInvalidated(InvalidateEventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+            <summary>Sets the stub of Control.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnKeyDownKeyEventArgs">
+            <summary>Sets the stub of Control.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnKeyPress(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>Sets the stub of Control.OnKeyPress(KeyPressEventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnKeyPressKeyPressEventArgs">
+            <summary>Sets the stub of Control.OnKeyPress(KeyPressEventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnKeyUp(System.Windows.Forms.KeyEventArgs)">
+            <summary>Sets the stub of Control.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnKeyUpKeyEventArgs">
+            <summary>Sets the stub of Control.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnLayout(System.Windows.Forms.LayoutEventArgs)">
+            <summary>Sets the stub of ContainerControl.OnLayout(LayoutEventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnLayoutLayoutEventArgs">
+            <summary>Sets the stub of ContainerControl.OnLayout(LayoutEventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnLeave(System.EventArgs)">
+            <summary>Sets the stub of Control.OnLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnLeaveEventArgs">
+            <summary>Sets the stub of Control.OnLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnLoad(System.EventArgs)">
+            <summary>Sets the stub of UserControl.OnLoad(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnLoadEventArgs">
+            <summary>Sets the stub of UserControl.OnLoad(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnLocationChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnLocationChangedEventArgs">
+            <summary>Sets the stub of Control.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnLostFocus(System.EventArgs)">
+            <summary>Sets the stub of Control.OnLostFocus(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnLostFocusEventArgs">
+            <summary>Sets the stub of Control.OnLostFocus(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnMarginChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMarginChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnMarginChangedEventArgs">
+            <summary>Sets the stub of Control.OnMarginChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnMouseCaptureChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMouseCaptureChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnMouseCaptureChangedEventArgs">
+            <summary>Sets the stub of Control.OnMouseCaptureChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnMouseClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnMouseClickMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnMouseDoubleClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseDoubleClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnMouseDoubleClickMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseDoubleClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of UserControl.OnMouseDown(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnMouseDownMouseEventArgs">
+            <summary>Sets the stub of UserControl.OnMouseDown(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnMouseEnter(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMouseEnter(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnMouseEnterEventArgs">
+            <summary>Sets the stub of Control.OnMouseEnter(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnMouseHover(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMouseHover(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnMouseHoverEventArgs">
+            <summary>Sets the stub of Control.OnMouseHover(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnMouseLeave(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMouseLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnMouseLeaveEventArgs">
+            <summary>Sets the stub of Control.OnMouseLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnMouseMoveMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseUp(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnMouseUpMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseUp(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnMouseWheel(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of ScrollableControl.OnMouseWheel(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnMouseWheelMouseEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnMouseWheel(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnMove(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMove(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnMoveEventArgs">
+            <summary>Sets the stub of Control.OnMove(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnNotifyMessage(System.Windows.Forms.Message)">
+            <summary>Sets the stub of Control.OnNotifyMessage(Message m)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnNotifyMessageMessage">
+            <summary>Sets the stub of Control.OnNotifyMessage(Message m)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnPaddingChanged(System.EventArgs)">
+            <summary>Sets the stub of ScrollableControl.OnPaddingChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnPaddingChangedEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnPaddingChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>Sets the stub of Control.OnPaint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+            <summary>Sets the stub of ScrollableControl.OnPaintBackground(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnPaintBackgroundPaintEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnPaintBackground(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnPaintPaintEventArgs">
+            <summary>Sets the stub of Control.OnPaint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnParentBackColorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnParentBackColorChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnParentBackgroundImageChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnParentBackgroundImageChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnParentBindingContextChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnParentBindingContextChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnParentChanged(System.EventArgs)">
+            <summary>Sets the stub of ContainerControl.OnParentChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnParentChangedEventArgs">
+            <summary>Sets the stub of ContainerControl.OnParentChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnParentCursorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnParentCursorChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnParentEnabledChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnParentEnabledChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnParentFontChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnParentFontChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnParentForeColorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnParentForeColorChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnParentRightToLeftChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnParentRightToLeftChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnParentVisibleChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnParentVisibleChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnPreviewKeyDown(System.Windows.Forms.PreviewKeyDownEventArgs)">
+            <summary>Sets the stub of Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnPreviewKeyDownPreviewKeyDownEventArgs">
+            <summary>Sets the stub of Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnPrint(System.Windows.Forms.PaintEventArgs)">
+            <summary>Sets the stub of Control.OnPrint(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnPrintPaintEventArgs">
+            <summary>Sets the stub of Control.OnPrint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnQueryContinueDrag(System.Windows.Forms.QueryContinueDragEventArgs)">
+            <summary>Sets the stub of Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnQueryContinueDragQueryContinueDragEventArgs">
+            <summary>Sets the stub of Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnRegionChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnRegionChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnRegionChangedEventArgs">
+            <summary>Sets the stub of Control.OnRegionChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnResize(System.EventArgs)">
+            <summary>Sets the stub of UserControl.OnResize(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnResizeEventArgs">
+            <summary>Sets the stub of UserControl.OnResize(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnRightToLeftChanged(System.EventArgs)">
+            <summary>Sets the stub of ScrollableControl.OnRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnRightToLeftChangedEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnScroll(System.Windows.Forms.ScrollEventArgs)">
+            <summary>Sets the stub of ScrollableControl.OnScroll(ScrollEventArgs se)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnScrollScrollEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnScroll(ScrollEventArgs se)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnSizeChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnSizeChangedEventArgs">
+            <summary>Sets the stub of Control.OnSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnStyleChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnStyleChangedEventArgs">
+            <summary>Sets the stub of Control.OnStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnSystemColorsChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnSystemColorsChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnSystemColorsChangedEventArgs">
+            <summary>Sets the stub of Control.OnSystemColorsChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnTabIndexChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnTabIndexChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnTabIndexChangedEventArgs">
+            <summary>Sets the stub of Control.OnTabIndexChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnTabStopChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnTabStopChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnTabStopChangedEventArgs">
+            <summary>Sets the stub of Control.OnTabStopChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnTextChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnTextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnTextChangedEventArgs">
+            <summary>Sets the stub of Control.OnTextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnValidated(System.EventArgs)">
+            <summary>Sets the stub of Control.OnValidated(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnValidatedEventArgs">
+            <summary>Sets the stub of Control.OnValidated(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnValidating(System.ComponentModel.CancelEventArgs)">
+            <summary>Sets the stub of Control.OnValidating(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnValidatingCancelEventArgs">
+            <summary>Sets the stub of Control.OnValidating(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.OnVisibleChanged(System.EventArgs)">
+            <summary>Sets the stub of ScrollableControl.OnVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.OnVisibleChangedEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.PreProcessMessage(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Control.PreProcessMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.PreProcessMessageMessageRef">
+            <summary>Sets the stub of Control.PreProcessMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+            <summary>Sets the stub of ContainerControl.ProcessCmdKey(Message&amp; msg, Keys keyData)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ProcessCmdKeyMessageRefKeys">
+            <summary>Sets the stub of ContainerControl.ProcessCmdKey(Message&amp; msg, Keys keyData)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.ProcessDialogChar(System.Char)">
+            <summary>Sets the stub of ContainerControl.ProcessDialogChar(Char charCode)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ProcessDialogCharChar">
+            <summary>Sets the stub of ContainerControl.ProcessDialogChar(Char charCode)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.ProcessDialogKey(System.Windows.Forms.Keys)">
+            <summary>Sets the stub of ContainerControl.ProcessDialogKey(Keys keyData)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ProcessDialogKeyKeys">
+            <summary>Sets the stub of ContainerControl.ProcessDialogKey(Keys keyData)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.ProcessKeyEventArgs(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Control.ProcessKeyEventArgs(Message&amp; m)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ProcessKeyEventArgsMessageRef">
+            <summary>Sets the stub of Control.ProcessKeyEventArgs(Message&amp; m)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.ProcessKeyMessage(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Control.ProcessKeyMessage(Message&amp; m)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ProcessKeyMessageMessageRef">
+            <summary>Sets the stub of Control.ProcessKeyMessage(Message&amp; m)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.ProcessKeyPreview(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Control.ProcessKeyPreview(Message&amp; m)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ProcessKeyPreviewMessageRef">
+            <summary>Sets the stub of Control.ProcessKeyPreview(Message&amp; m)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.ProcessMnemonic(System.Char)">
+            <summary>Sets the stub of ContainerControl.ProcessMnemonic(Char charCode)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ProcessMnemonicChar">
+            <summary>Sets the stub of ContainerControl.ProcessMnemonic(Char charCode)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.ProcessTabKey(System.Boolean)">
+            <summary>Sets the stub of ContainerControl.ProcessTabKey(Boolean forward)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ProcessTabKeyBoolean">
+            <summary>Sets the stub of ContainerControl.ProcessTabKey(Boolean forward)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.Refresh">
+            <summary>Sets the stub of Control.Refresh()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.Refresh01">
+            <summary>Sets the stub of Control.Refresh()</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.ResetBackColor">
+            <summary>Sets the stub of Control.ResetBackColor()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ResetBackColor01">
+            <summary>Sets the stub of Control.ResetBackColor()</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.ResetCursor">
+            <summary>Sets the stub of Control.ResetCursor()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ResetCursor01">
+            <summary>Sets the stub of Control.ResetCursor()</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.ResetFont">
+            <summary>Sets the stub of Control.ResetFont()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ResetFont01">
+            <summary>Sets the stub of Control.ResetFont()</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.ResetForeColor">
+            <summary>Sets the stub of Control.ResetForeColor()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ResetForeColor01">
+            <summary>Sets the stub of Control.ResetForeColor()</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.ResetRightToLeft">
+            <summary>Sets the stub of Control.ResetRightToLeft()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ResetRightToLeft01">
+            <summary>Sets the stub of Control.ResetRightToLeft()</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.ResetText">
+            <summary>Sets the stub of Control.ResetText()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ResetText01">
+            <summary>Sets the stub of Control.ResetText()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.RightToLeftGet">
+            <summary>Sets the stub of Control.get_RightToLeft()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.RightToLeftSetRightToLeft">
+            <summary>Sets the stub of Control.set_RightToLeft(RightToLeft value)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ScaleChildrenGet">
+            <summary>Sets the stub of Control.get_ScaleChildren()</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.ScaleControl(System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>Sets the stub of ScrollableControl.ScaleControl(SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ScaleControlSizeFBoundsSpecified">
+            <summary>Sets the stub of ScrollableControl.ScaleControl(SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.ScaleCore(System.Single,System.Single)">
+            <summary>Sets the stub of ScrollableControl.ScaleCore(Single dx, Single dy)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ScaleCoreSingleSingle">
+            <summary>Sets the stub of ScrollableControl.ScaleCore(Single dx, Single dy)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.ScrollToControl(System.Windows.Forms.Control)">
+            <summary>Sets the stub of ScrollableControl.ScrollToControl(Control activeControl)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ScrollToControlControl">
+            <summary>Sets the stub of ScrollableControl.ScrollToControl(Control activeControl)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.Select(System.Boolean,System.Boolean)">
+            <summary>Sets the stub of ContainerControl.Select(Boolean directed, Boolean forward)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.SelectBooleanBoolean">
+            <summary>Sets the stub of ContainerControl.Select(Boolean directed, Boolean forward)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.SetBoundsCore(System.Int32,System.Int32,System.Int32,System.Int32,System.Windows.Forms.BoundsSpecified)">
+            <summary>Sets the stub of Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.SetBoundsCoreInt32Int32Int32Int32BoundsSpecified">
+            <summary>Sets the stub of Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.SetClientSizeCore(System.Int32,System.Int32)">
+            <summary>Sets the stub of Control.SetClientSizeCore(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.SetClientSizeCoreInt32Int32">
+            <summary>Sets the stub of Control.SetClientSizeCore(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.SetVisibleCore(System.Boolean)">
+            <summary>Sets the stub of Control.SetVisibleCore(Boolean value)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.SetVisibleCoreBoolean">
+            <summary>Sets the stub of Control.SetVisibleCore(Boolean value)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ShowFocusCuesGet">
+            <summary>Sets the stub of Control.get_ShowFocusCues()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ShowKeyboardCuesGet">
+            <summary>Sets the stub of Control.get_ShowKeyboardCues()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.SiteGet">
+            <summary>Sets the stub of Control.get_Site()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.SiteSetISite">
+            <summary>Sets the stub of Control.set_Site(ISite value)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.SizeFromClientSize(System.Drawing.Size)">
+            <summary>Sets the stub of Control.SizeFromClientSize(Size clientSize)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.SizeFromClientSizeSize">
+            <summary>Sets the stub of Control.SizeFromClientSize(Size clientSize)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.TextGet">
+            <summary>Sets the stub of UserControl.get_Text()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.TextSetString">
+            <summary>Sets the stub of UserControl.set_Text(String value)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.ToString">
+            <summary>Sets the stub of Component.ToString()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ToString01">
+            <summary>Sets the stub of Component.ToString()</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.UpdateDefaultButton">
+            <summary>Sets the stub of ContainerControl.UpdateDefaultButton()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.UpdateDefaultButton01">
+            <summary>Sets the stub of ContainerControl.UpdateDefaultButton()</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.ValidateChildren">
+            <summary>Sets the stub of UserControl.ValidateChildren()</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.ValidateChildren(System.Windows.Forms.ValidationConstraints)">
+            <summary>Sets the stub of UserControl.ValidateChildren(ValidationConstraints validationConstraints)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ValidateChildren01">
+            <summary>Sets the stub of UserControl.ValidateChildren()</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.ValidateChildrenValidationConstraints">
+            <summary>Sets the stub of UserControl.ValidateChildren(ValidationConstraints validationConstraints)</summary>
+        </member>
+        <member name="M:ColorHelper.Fakes.StubColorSelector.WndProc(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of UserControl.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:ColorHelper.Fakes.StubColorSelector.WndProcMessageRef">
+            <summary>Sets the stub of UserControl.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.AllowDrop">
+            <summary>Sets the stub of Control.get_AllowDrop()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.Anchor">
+            <summary>Sets the stub of Control.get_Anchor()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.AutoScroll">
+            <summary>Sets the stub of ScrollableControl.get_AutoScroll()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.AutoScrollOffset">
+            <summary>Sets the stub of Control.get_AutoScrollOffset()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.AutoSize">
+            <summary>Sets the stub of UserControl.get_AutoSize()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.AutoValidate">
+            <summary>Sets the stub of UserControl.get_AutoValidate()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.BackColor">
+            <summary>Sets the stub of Control.get_BackColor()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.BackgroundImage">
+            <summary>Sets the stub of Control.get_BackgroundImage()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.BackgroundImageLayout">
+            <summary>Sets the stub of Control.get_BackgroundImageLayout()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.BindingContext">
+            <summary>Sets the stub of ContainerControl.get_BindingContext()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.CanEnableIme">
+            <summary>Sets the stub of ContainerControl.get_CanEnableIme()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.CanRaiseEvents">
+            <summary>Sets the stub of Control.get_CanRaiseEvents()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.ContextMenu">
+            <summary>Sets the stub of Control.get_ContextMenu()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.ContextMenuStrip">
+            <summary>Sets the stub of Control.get_ContextMenuStrip()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.CreateParams">
+            <summary>Sets the stub of UserControl.get_CreateParams()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.Cursor">
+            <summary>Sets the stub of Control.get_Cursor()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.DefaultCursor">
+            <summary>Sets the stub of Control.get_DefaultCursor()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.DefaultImeMode">
+            <summary>Sets the stub of Control.get_DefaultImeMode()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.DefaultMargin">
+            <summary>Sets the stub of Control.get_DefaultMargin()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.DefaultMaximumSize">
+            <summary>Sets the stub of Control.get_DefaultMaximumSize()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.DefaultMinimumSize">
+            <summary>Sets the stub of Control.get_DefaultMinimumSize()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.DefaultPadding">
+            <summary>Sets the stub of Control.get_DefaultPadding()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.DefaultSize">
+            <summary>Sets the stub of UserControl.get_DefaultSize()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.DisplayRectangle">
+            <summary>Sets the stub of ScrollableControl.get_DisplayRectangle()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.Dock">
+            <summary>Sets the stub of Control.get_Dock()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.DoubleBuffered">
+            <summary>Sets the stub of Control.get_DoubleBuffered()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.Focused">
+            <summary>Sets the stub of Control.get_Focused()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.Font">
+            <summary>Sets the stub of Control.get_Font()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.ForeColor">
+            <summary>Sets the stub of Control.get_ForeColor()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.ImeModeBase">
+            <summary>Sets the stub of Control.get_ImeModeBase()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.LayoutEngine">
+            <summary>Sets the stub of Control.get_LayoutEngine()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.MaximumSize">
+            <summary>Sets the stub of Control.get_MaximumSize()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.MinimumSize">
+            <summary>Sets the stub of Control.get_MinimumSize()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.RightToLeft">
+            <summary>Sets the stub of Control.get_RightToLeft()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.ScaleChildren">
+            <summary>Sets the stub of Control.get_ScaleChildren()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.ShowFocusCues">
+            <summary>Sets the stub of Control.get_ShowFocusCues()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.ShowKeyboardCues">
+            <summary>Sets the stub of Control.get_ShowKeyboardCues()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.Site">
+            <summary>Sets the stub of Control.get_Site()</summary>
+        </member>
+        <member name="P:ColorHelper.Fakes.StubColorSelector.Text">
+            <summary>Sets the stub of UserControl.get_Text()</summary>
+        </member>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.ColorSelectorDelegates">
+            <summary>Contains custom delegates used for the stubs and shims of ColorSelector</summary>
+        </member>
+    </members>
+</doc>

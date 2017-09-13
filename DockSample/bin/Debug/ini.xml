@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <default>
+    <com port="COM3" baudrate="115200" databits="8" stopbits="1" parity="None" flow="None" />
+  </default>
+  <savedlist>
+    <com port="COM3" baudrate="115200" databits="8" stopbits="1" parity="None" flow="None" />
+  </savedlist>
+</config>
