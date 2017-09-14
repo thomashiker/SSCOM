@@ -146,18 +146,12 @@ namespace DockSample
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.screenShotButton = new System.Windows.Forms.ToolStripButton();
             this.btHideSendBar = new System.Windows.Forms.ToolStripButton();
-            this.btSize = new System.Windows.Forms.ToolStripSplitButton();
-            this.zoomItem0 = new System.Windows.Forms.ToolStripMenuItem();
-            this.zoomItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.zoomItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.zoomItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.zoomItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.notifyImageList = new System.Windows.Forms.ImageList(this.components);
             this.toolStripimageList = new System.Windows.Forms.ImageList(this.components);
             this.systemStatusStrip = new System.Windows.Forms.StatusStrip();
             this.lableConectState = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.sendTimerPeriodLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.labelLoopSendPeriod = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.labelSendNum = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel8 = new System.Windows.Forms.ToolStripStatusLabel();
@@ -198,6 +192,13 @@ namespace DockSample
             this.btSend = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.serialPort = new System.IO.Ports.SerialPort(this.components);
+            this.LoopSendTimer = new System.Windows.Forms.Timer(this.components);
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.labelZoomState = new System.Windows.Forms.ToolStripSplitButton();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolBar.SuspendLayout();
             this.systemStatusStrip.SuspendLayout();
             this.cmsNotifyMenu.SuspendLayout();
@@ -235,7 +236,7 @@ namespace DockSample
             this.toolStripSeparator3,
             this.screenShotButton,
             this.btHideSendBar,
-            this.btSize});
+            this.toolStripButton1});
             this.toolBar.Location = new System.Drawing.Point(4, 28);
             this.toolBar.Name = "toolBar";
             this.toolBar.Padding = new System.Windows.Forms.Padding(0);
@@ -452,55 +453,6 @@ namespace DockSample
             this.btHideSendBar.Text = "toolStripButton1";
             this.btHideSendBar.ToolTipText = "Click To Hide Send Window";
             // 
-            // btSize
-            // 
-            this.btSize.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.btSize.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.zoomItem0,
-            this.zoomItem1,
-            this.zoomItem2,
-            this.zoomItem3,
-            this.zoomItem4});
-            this.btSize.Font = new System.Drawing.Font("NSimSun", 7.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btSize.Image = global::DockSample.Properties.Resources.resize;
-            this.btSize.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btSize.Name = "btSize";
-            this.btSize.Size = new System.Drawing.Size(45, 22);
-            this.btSize.Text = "Zoom";
-            this.btSize.ToolTipText = "Zoom";
-            this.btSize.ButtonClick += new System.EventHandler(this.btSize_ButtonClick);
-            this.btSize.DropDownItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.btSize_DropDownItemClicked);
-            // 
-            // zoomItem0
-            // 
-            this.zoomItem0.Name = "zoomItem0";
-            this.zoomItem0.Size = new System.Drawing.Size(94, 22);
-            this.zoomItem0.Text = "50%";
-            // 
-            // zoomItem1
-            // 
-            this.zoomItem1.Name = "zoomItem1";
-            this.zoomItem1.Size = new System.Drawing.Size(94, 22);
-            this.zoomItem1.Text = "70%";
-            // 
-            // zoomItem2
-            // 
-            this.zoomItem2.Name = "zoomItem2";
-            this.zoomItem2.Size = new System.Drawing.Size(94, 22);
-            this.zoomItem2.Text = "100%";
-            // 
-            // zoomItem3
-            // 
-            this.zoomItem3.Name = "zoomItem3";
-            this.zoomItem3.Size = new System.Drawing.Size(94, 22);
-            this.zoomItem3.Text = "150%";
-            // 
-            // zoomItem4
-            // 
-            this.zoomItem4.Name = "zoomItem4";
-            this.zoomItem4.Size = new System.Drawing.Size(94, 22);
-            this.zoomItem4.Text = "200%";
-            // 
             // notifyImageList
             // 
             this.notifyImageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("notifyImageList.ImageStream")));
@@ -549,17 +501,18 @@ namespace DockSample
             this.systemStatusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lableConectState,
             this.toolStripStatusLabel4,
-            this.sendTimerPeriodLabel,
+            this.labelLoopSendPeriod,
             this.toolStripStatusLabel1,
             this.labelSendNum,
             this.toolStripStatusLabel8,
             this.labelRcvNum,
             this.toolStripStatusLabel5,
+            this.labelZoomState,
             this.linkTimeLabel});
             this.systemStatusStrip.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
-            this.systemStatusStrip.Location = new System.Drawing.Point(4, 374);
+            this.systemStatusStrip.Location = new System.Drawing.Point(4, 372);
             this.systemStatusStrip.Name = "systemStatusStrip";
-            this.systemStatusStrip.Size = new System.Drawing.Size(542, 22);
+            this.systemStatusStrip.Size = new System.Drawing.Size(542, 24);
             this.systemStatusStrip.SizingGrip = false;
             this.systemStatusStrip.TabIndex = 14;
             this.systemStatusStrip.Text = "statusStrip1";
@@ -569,7 +522,7 @@ namespace DockSample
             this.lableConectState.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
             this.lableConectState.Margin = new System.Windows.Forms.Padding(0, 3, 0, 0);
             this.lableConectState.Name = "lableConectState";
-            this.lableConectState.Size = new System.Drawing.Size(88, 19);
+            this.lableConectState.Size = new System.Drawing.Size(88, 21);
             this.lableConectState.Text = "No Conection";
             this.lableConectState.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -577,23 +530,23 @@ namespace DockSample
             // 
             this.toolStripStatusLabel4.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
-            this.toolStripStatusLabel4.Size = new System.Drawing.Size(11, 17);
+            this.toolStripStatusLabel4.Size = new System.Drawing.Size(11, 19);
             this.toolStripStatusLabel4.Text = "|";
             // 
-            // sendTimerPeriodLabel
+            // labelLoopSendPeriod
             // 
-            this.sendTimerPeriodLabel.Image = global::DockSample.Properties.Resources.alarm;
-            this.sendTimerPeriodLabel.Margin = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.sendTimerPeriodLabel.Name = "sendTimerPeriodLabel";
-            this.sendTimerPeriodLabel.Size = new System.Drawing.Size(69, 19);
-            this.sendTimerPeriodLabel.Text = "1000ms";
-            this.sendTimerPeriodLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.labelLoopSendPeriod.Image = global::DockSample.Properties.Resources.alarm;
+            this.labelLoopSendPeriod.Margin = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            this.labelLoopSendPeriod.Name = "labelLoopSendPeriod";
+            this.labelLoopSendPeriod.Size = new System.Drawing.Size(69, 21);
+            this.labelLoopSendPeriod.Text = "1000ms";
+            this.labelLoopSendPeriod.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(11, 17);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(11, 19);
             this.toolStripStatusLabel1.Text = "|";
             // 
             // labelSendNum
@@ -605,7 +558,7 @@ namespace DockSample
             this.labelSendNum.LinkColor = System.Drawing.SystemColors.ControlText;
             this.labelSendNum.Margin = new System.Windows.Forms.Padding(0, 3, 0, 0);
             this.labelSendNum.Name = "labelSendNum";
-            this.labelSendNum.Size = new System.Drawing.Size(31, 19);
+            this.labelSendNum.Size = new System.Drawing.Size(31, 21);
             this.labelSendNum.Text = "0";
             this.labelSendNum.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.labelSendNum.VisitedLinkColor = System.Drawing.SystemColors.ControlText;
@@ -614,7 +567,7 @@ namespace DockSample
             // 
             this.toolStripStatusLabel8.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.toolStripStatusLabel8.Name = "toolStripStatusLabel8";
-            this.toolStripStatusLabel8.Size = new System.Drawing.Size(11, 17);
+            this.toolStripStatusLabel8.Size = new System.Drawing.Size(11, 19);
             this.toolStripStatusLabel8.Text = "|";
             // 
             // labelRcvNum
@@ -626,7 +579,7 @@ namespace DockSample
             this.labelRcvNum.LinkColor = System.Drawing.SystemColors.ControlText;
             this.labelRcvNum.Margin = new System.Windows.Forms.Padding(0, 3, 0, 0);
             this.labelRcvNum.Name = "labelRcvNum";
-            this.labelRcvNum.Size = new System.Drawing.Size(31, 19);
+            this.labelRcvNum.Size = new System.Drawing.Size(31, 21);
             this.labelRcvNum.Text = "0";
             this.labelRcvNum.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.labelRcvNum.VisitedLinkColor = System.Drawing.SystemColors.ControlText;
@@ -635,7 +588,7 @@ namespace DockSample
             // 
             this.toolStripStatusLabel5.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.toolStripStatusLabel5.Name = "toolStripStatusLabel5";
-            this.toolStripStatusLabel5.Size = new System.Drawing.Size(11, 17);
+            this.toolStripStatusLabel5.Size = new System.Drawing.Size(11, 19);
             this.toolStripStatusLabel5.Text = "|";
             // 
             // linkTimeLabel
@@ -644,7 +597,7 @@ namespace DockSample
             this.linkTimeLabel.Margin = new System.Windows.Forms.Padding(0, 3, 0, 0);
             this.linkTimeLabel.Name = "linkTimeLabel";
             this.linkTimeLabel.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.linkTimeLabel.Size = new System.Drawing.Size(72, 19);
+            this.linkTimeLabel.Size = new System.Drawing.Size(72, 21);
             this.linkTimeLabel.Text = "00:00:00";
             this.linkTimeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.linkTimeLabel.ToolTipText = "Link Time";
@@ -885,7 +838,6 @@ namespace DockSample
             this.fctbRcv.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.fctbRcv.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.fctbRcv.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.fctbRcv.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.fctbRcv.IndentBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(219)))), ((int)(((byte)(233)))));
             this.fctbRcv.IsReplaceMode = false;
             this.fctbRcv.Location = new System.Drawing.Point(4, 53);
@@ -897,11 +849,12 @@ namespace DockSample
             this.fctbRcv.SelectionUnFormatColor = System.Drawing.Color.Lime;
             this.fctbRcv.ServiceColors = ((FastColoredTextBoxNS.ServiceColors)(resources.GetObject("fctbRcv.ServiceColors")));
             this.fctbRcv.ServiceLinesColor = System.Drawing.Color.White;
-            this.fctbRcv.Size = new System.Drawing.Size(542, 295);
+            this.fctbRcv.Size = new System.Drawing.Size(542, 293);
             this.fctbRcv.TabIndex = 30;
             this.fctbRcv.TabLength = 8;
             this.fctbRcv.Zoom = 100;
             this.fctbRcv.KeyPressed += new System.Windows.Forms.KeyPressEventHandler(this.fctbRcv_KeyPressed);
+            this.fctbRcv.ZoomChanged += new System.EventHandler(this.fctbRcv_ZoomChanged);
             this.fctbRcv.KeyDown += new System.Windows.Forms.KeyEventHandler(this.fctbRcv_KeyDown);
             this.fctbRcv.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fctbRcv_KeyPress);
             this.fctbRcv.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.fctbRcv_MouseDoubleClick);
@@ -920,7 +873,7 @@ namespace DockSample
             this.sendPanel.Controls.Add(this.btSendFile);
             this.sendPanel.Controls.Add(this.btSend);
             this.sendPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.sendPanel.Location = new System.Drawing.Point(4, 348);
+            this.sendPanel.Location = new System.Drawing.Point(4, 346);
             this.sendPanel.Margin = new System.Windows.Forms.Padding(0);
             this.sendPanel.Name = "sendPanel";
             this.sendPanel.Size = new System.Drawing.Size(542, 26);
@@ -933,7 +886,7 @@ namespace DockSample
             this.btHistory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btHistory.Image = global::DockSample.Properties.Resources.attachment;
             this.btHistory.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btHistory.Location = new System.Drawing.Point(409, 4);
+            this.btHistory.Location = new System.Drawing.Point(405, 4);
             this.btHistory.Name = "btHistory";
             this.btHistory.Padding = new System.Windows.Forms.Padding(0, 0, 1, 1);
             this.btHistory.Size = new System.Drawing.Size(19, 19);
@@ -950,7 +903,7 @@ namespace DockSample
             this.btLoopSend.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btLoopSend.Image = global::DockSample.Properties.Resources.MD_repeat_alt;
             this.btLoopSend.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btLoopSend.Location = new System.Drawing.Point(453, 4);
+            this.btLoopSend.Location = new System.Drawing.Point(444, 4);
             this.btLoopSend.Name = "btLoopSend";
             this.btLoopSend.Padding = new System.Windows.Forms.Padding(0, 0, 1, 1);
             this.btLoopSend.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -958,19 +911,21 @@ namespace DockSample
             this.btLoopSend.TabIndex = 17;
             this.btLoopSend.Tag = "Send";
             this.btLoopSend.UseVisualStyleBackColor = true;
+            this.btLoopSend.Click += new System.EventHandler(this.btLoopSend_Click);
+            this.btLoopSend.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btLoopSend_MouseDown);
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.panel2.Location = new System.Drawing.Point(448, 8);
+            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Location = new System.Drawing.Point(433, 8);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1, 12);
             this.panel2.TabIndex = 35;
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.panel3.Location = new System.Drawing.Point(479, 8);
+            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Location = new System.Drawing.Point(533, 8);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1, 12);
             this.panel3.TabIndex = 33;
@@ -1035,7 +990,7 @@ namespace DockSample
             this.btSendFile.ImageIndex = 22;
             this.btSendFile.ImageList = this.toolStripimageList;
             this.btSendFile.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btSendFile.Location = new System.Drawing.Point(485, 4);
+            this.btSendFile.Location = new System.Drawing.Point(466, 4);
             this.btSendFile.Name = "btSendFile";
             this.btSendFile.Padding = new System.Windows.Forms.Padding(0, 0, 1, 1);
             this.btSendFile.Size = new System.Drawing.Size(19, 19);
@@ -1065,7 +1020,7 @@ namespace DockSample
             // 
             this.panel4.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(4, 347);
+            this.panel4.Location = new System.Drawing.Point(4, 345);
             this.panel4.Margin = new System.Windows.Forms.Padding(0);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(542, 1);
@@ -1074,6 +1029,69 @@ namespace DockSample
             // serialPort
             // 
             this.serialPort.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.serialPort_DataReceived);
+            // 
+            // LoopSendTimer
+            // 
+            this.LoopSendTimer.Interval = 1000;
+            this.LoopSendTimer.Tick += new System.EventHandler(this.LoopSendTimer_Tick);
+            // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton1.Text = "toolStripButton1";
+            // 
+            // labelZoomState
+            // 
+            this.labelZoomState.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem6,
+            this.toolStripMenuItem5,
+            this.toolStripMenuItem4,
+            this.toolStripMenuItem3});
+            this.labelZoomState.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.labelZoomState.Margin = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            this.labelZoomState.Name = "labelZoomState";
+            this.labelZoomState.Size = new System.Drawing.Size(56, 21);
+            this.labelZoomState.Text = "100%";
+            this.labelZoomState.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.labelZoomState.ToolTipText = "Zoom";
+            this.labelZoomState.ButtonClick += new System.EventHandler(this.labelZoomState_ButtonClick);
+            this.labelZoomState.DropDownItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.labelZoomState_DropDownItemClicked);
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.AutoSize = false;
+            this.toolStripMenuItem3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(220)))), ((int)(((byte)(233)))));
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem3.Text = "200%";
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.AutoSize = false;
+            this.toolStripMenuItem4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(220)))), ((int)(((byte)(233)))));
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem4.Text = "150%";
+            // 
+            // toolStripMenuItem5
+            // 
+            this.toolStripMenuItem5.AutoSize = false;
+            this.toolStripMenuItem5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(220)))), ((int)(((byte)(233)))));
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem5.Text = "100%";
+            // 
+            // toolStripMenuItem6
+            // 
+            this.toolStripMenuItem6.AutoSize = false;
+            this.toolStripMenuItem6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(220)))), ((int)(((byte)(233)))));
+            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem6.Text = "50%";
             // 
             // MainForm
             // 
@@ -1170,7 +1188,7 @@ namespace DockSample
         private ToolStripButton tsBtFindNext;
         private StatusStrip systemStatusStrip;
         private ToolStripStatusLabel lableConectState;
-        private ToolStripStatusLabel sendTimerPeriodLabel;
+        private ToolStripStatusLabel labelLoopSendPeriod;
         private ToolStripStatusLabel linkTimeLabel;
         private ToolStripStatusLabel toolStripStatusLabel4;
         private ToolStripStatusLabel toolStripStatusLabel1;
@@ -1214,12 +1232,13 @@ namespace DockSample
         private Button btSend;
         private Panel panel4;
         private SerialPort serialPort;
-        private ToolStripSplitButton btSize;
-        private ToolStripMenuItem zoomItem0;
-        private ToolStripMenuItem zoomItem1;
-        private ToolStripMenuItem zoomItem2;
-        private ToolStripMenuItem zoomItem3;
-        private ToolStripMenuItem zoomItem4;
         private Button btHistory;
+        private Timer LoopSendTimer;
+        private ToolStripButton toolStripButton1;
+        private ToolStripSplitButton labelZoomState;
+        private ToolStripMenuItem toolStripMenuItem6;
+        private ToolStripMenuItem toolStripMenuItem5;
+        private ToolStripMenuItem toolStripMenuItem4;
+        private ToolStripMenuItem toolStripMenuItem3;
     }
 }

@@ -135,3 +135,5 @@ C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\PortSettingContextMen
 C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\TextListContextMenu.dll
 C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\TextListContextMenu.pdb
 C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\obj\Debug\DockSample.SendHistoryForm.resources
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\SuperContextMenu.dll
+C:\Users\hiker\Documents\GitHub\SSCOM\DockSample\bin\Debug\SuperContextMenu.pdb

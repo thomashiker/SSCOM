@@ -41,11 +41,15 @@ namespace DockSample
         private Int64 rcvCharNum = 0;
         private Int64 sendCharNum = 0;
         private Int64 TimeElapse = 0;
+        private bool btLoopChecked = false;
+        private Color btLoopSendSefaultColor;
+        private int fctbRcvZoomMax = 300;
 
         SendHistoryForm sendHistory = new SendHistoryForm();
 
         private PortSettingContainer portSelectMenu = new PortSettingContainer();
         private TextListContainer sentList = new TextListContainer();
+        private PoperContainer btLoopContextMenu = new PoperContainer();
 
         public delegate void UpdateTxtEventHandler(string text);
         public delegate void UpdateDigitEventHandler(Int64 digit);
@@ -69,6 +73,13 @@ namespace DockSample
             {
                 SetCyclicSendTimerInterval(btLoopContextMenu.Time);
             }*/
+            LoopSendTimer.Interval = btLoopContextMenu.Time;
+            if (true == BTLoopChecked)
+            {
+                LoopSendTimer.Stop();
+                LoopSendTimer.Start();
+            }
+            labelLoopSendPeriod.Text = btLoopContextMenu.Time.ToString();
         }
 
         bool PortInit()
@@ -176,11 +187,20 @@ namespace DockSample
             OpenPort();
         }
 
+        private void SetZoomValue(int val)
+        {
+            fctbRcv.Zoom = val > fctbRcvZoomMax ? fctbRcvZoomMax : val;
+            labelZoomState.Text = fctbRcv.Zoom.ToString() + "%";
+        }
+
         public MainForm()
         {
             InitializeComponent();
 
+            btLoopSendSefaultColor = btLoopSend.BackColor;
+            labelLoopSendPeriod.Text = btLoopContextMenu.Time.ToString();
 
+            btLoopContextMenu.Closing += new ToolStripDropDownClosingEventHandler(btLoopSendContextMenu_closed);
             portSelectMenu.Closing += new ToolStripDropDownClosingEventHandler(portSettingContextMenu_closed);
 
             //serialPort.Encoding = System.Text.Encoding.GetEncoding("GB2312");
@@ -190,11 +210,6 @@ namespace DockSample
             linkTimeLabel.Alignment = ToolStripItemAlignment.Right;
 
             InitialNotifyMenu();
-        }
-
-        public void SetTimerPeriodLabel(string label)
-        {
-            sendTimerPeriodLabel.Text = label;
         }
 
         #region Methods
@@ -593,23 +608,12 @@ namespace DockSample
 
         private void btSize_ButtonClick(object sender, EventArgs e)
         {
-            ToolStripMenuItem item = (ToolStripMenuItem)btSize.DefaultItem;
-            if (null != item)
-                item.Checked = false;
-            fctbRcv.Zoom = 100;
-            btSize.Text = "Zoom";
+
         }
 
         private void btSize_DropDownItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
-            ToolStripMenuItem item = (ToolStripMenuItem)btSize.DefaultItem;
-            if (null != item)
-                item.Checked = false;
-            btSize.DefaultItem = e.ClickedItem;
-            item = (ToolStripMenuItem)btSize.DefaultItem;
-            item.Checked = true;
-            btSize.Text = btSize.DefaultItem.Text;
-            fctbRcv.Zoom = Convert.ToInt32(btSize.Text.TrimEnd((char[])"%".ToCharArray()));
+
         }
 
         private void PortListMenu_DropDownItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -805,6 +809,65 @@ namespace DockSample
         {
             TimeElapse++;
             UpdateLinkTimeDisplay(TimeElapse);
+        }
+
+        private void btLoopSend_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                btLoopContextMenu.Show(btLoopSend);
+            }
+        }
+
+
+        public bool BTLoopChecked
+        {
+            get { return btLoopChecked; }
+            set
+            {
+                btLoopChecked = value;
+                if (true == btLoopChecked)
+                {
+                    LoopSendTimer.Interval = btLoopContextMenu.Time;
+                    LoopSendTimer.Start();
+                    btLoopSend.BackColor = SystemColors.Highlight;
+                }
+                else
+                {
+                    LoopSendTimer.Stop();
+                    btLoopSend.BackColor = btLoopSendSefaultColor;
+                }
+            }
+        }
+        private void btLoopSend_Click(object sender, EventArgs e)
+        {
+            BTLoopChecked = !BTLoopChecked;
+            //StartCyclicSendTimer(BTLoopChecked);
+        }
+
+        private void LoopSendTimer_Tick(object sender, EventArgs e)
+        {
+            SendMessage(tbSend.Text, true);
+        }
+
+        private void fctbRcv_ZoomChanged(object sender, EventArgs e)
+        {
+            if (fctbRcv.Zoom > fctbRcvZoomMax)
+            {
+                fctbRcv.Zoom = fctbRcvZoomMax;
+            }
+            labelZoomState.Text = fctbRcv.Zoom.ToString() + "%";
+        }
+
+        private void labelZoomState_ButtonClick(object sender, EventArgs e)
+        {
+            SetZoomValue(100);
+        }
+
+        private void labelZoomState_DropDownItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            labelZoomState.Text = e.ClickedItem.Text;
+            fctbRcv.Zoom = Convert.ToInt32(labelZoomState.Text.TrimEnd((char[])"%".ToCharArray()));
         }
     }
 }

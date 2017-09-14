@@ -5,11 +5,13 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace SuperContextMenu
 {
     public partial class ContextMenuForButton : PopedCotainer
     {
+        private Color okBtDefaultColor;
         //定义delegate
         public delegate void BtClickEventHandler(object sender, EventArgs e);
 
@@ -38,11 +40,11 @@ namespace SuperContextMenu
                 btChecked = value;
                 if (true == btChecked)
                 {
-                    btCheck.BackColor = System.Drawing.SystemColors.Highlight;
+                    btCheck.BackColor = SystemColors.Highlight;
                 }
                 else
                 {
-                    btCheck.BackColor = System.Drawing.SystemColors.Control;
+                    btCheck.BackColor = okBtDefaultColor;
                 }
                 numUpDown.Enabled = !btChecked;
             }
@@ -56,16 +58,11 @@ namespace SuperContextMenu
                 numUpDown.Value = value;
             }
         }
-        //private System.Windows.Forms.Button btOk;
-        //private System.Windows.Forms.Button btCancel;
-        //private System.Windows.Forms.NumericUpDown numUpDown;
-        //private System.Windows.Forms.Panel panel1;
-        //private System.Windows.Forms.Label labelMaxValue;
-        //private System.Windows.Forms.Label labelUnit;
 
         public ContextMenuForButton()
         {
             InitializeComponent();
+            okBtDefaultColor = btCheck.BackColor;
             OkChecked = true;
         }
 

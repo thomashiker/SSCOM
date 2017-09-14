@@ -95,10 +95,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\OfficePickers.dll</HintPath>
     </Reference>
-    <Reference Include="SuperContextMenu, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\SuperContextMenu.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.DirectoryServices" />
@@ -1101,6 +1097,10 @@
     <ProjectReference Include="..\PortSettingContexMenu\PortSettingContextMenu.csproj">
       <Project>{a489c81e-bacd-4670-b68c-608f222763f3}</Project>
       <Name>PortSettingContextMenu</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuperContextMenu\SuperContextMenu.csproj">
+      <Project>{24c9fa84-8206-429c-9785-d15f961149cb}</Project>
+      <Name>SuperContextMenu</Name>
     </ProjectReference>
     <ProjectReference Include="..\TextListContextMenu\TextListContextMenu.csproj">
       <Project>{6c3b6f06-4557-4348-80fe-334bed88a79a}</Project>
